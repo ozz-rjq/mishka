@@ -6,7 +6,7 @@
     url("../fonts/opensans.woff") format("woff");
   font-display: swap;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @font-face{
@@ -17,10 +17,10 @@
     url("../fonts/opensansbold.woff") format("woff");
   font-display: swap;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 body{
 	font-family: "Open Sans";
-	font-weight: bold;
+	font-weight: 400;
 }
