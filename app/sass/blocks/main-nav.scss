@@ -12,11 +12,41 @@
 	display: inline-block;
 	vertical-align: top;
 
+	box-sizing: border-box;
 	width: 100%;
+
+	text-align: center;
+	border-bottom: 1px solid #ececec;
 }
 
-.main-nav__item--header{
-	
+.main-nav__item--hidden{
+	display: none;
+}
+
+.main-nav__link{
+	display: inline-block;
+	vertical-align: top;
+
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 26px;
+	padding-bottom: 26px;
+
+	font-family: $opensans;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+}
+
+.main-nav__link--header{
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.main-nav__additional{
+	display: none;
 }
 
 .main-nav__toggle{
@@ -41,5 +71,13 @@
 		height: 20px;
 
 		background-image: url("../img/icon-menu-close.svg");
+	}
+
+	&:hover{
+		cursor: pointer;
+	}
+
+	&:focus{
+		outline: 1px solid rgba(#B6B8D0, 0.4);
 	}
 }
