@@ -1,1 +1,18 @@
+.page-header{
+	width: 100%;
+}
 
+.page-header__container{
+	width: 320px;
+	margin: 0 auto;
+}
+
+.page-header__info{
+	display: none;
+}
+
+@media (min-width: $tablet-width){
+	.page-header__info{
+		display: block;
+	}
+}

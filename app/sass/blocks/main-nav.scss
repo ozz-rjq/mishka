@@ -1,0 +1,45 @@
+.main-nav{
+	position: relative;
+
+	width: 100%;
+}
+
+.main-nav__list{
+	@include list-reset;
+}
+
+.main-nav__item{
+	display: inline-block;
+	vertical-align: top;
+
+	width: 100%;
+}
+
+.main-nav__item--header{
+	
+}
+
+.main-nav__toggle{
+	position: absolute;
+	top: 32px;
+	right: 30px;
+
+	background-color: transparent;
+	border: none;
+
+	&--open{
+		width: 20px;
+		height: 14px;
+
+		background-image: url("../img/icon-menu-open.svg");
+	}
+
+	&--close{
+		top: 29px;
+
+		width: 21px;
+		height: 20px;
+
+		background-image: url("../img/icon-menu-close.svg");
+	}
+}
