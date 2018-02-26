@@ -25,6 +25,30 @@
 
 	text-align: center;
 	border-bottom: 1px solid #ececec;
+
+	&--catalog{
+		position: absolute;
+		top: 80px;
+		left: 0;
+	}
+
+	&--order{
+		position: absolute;
+		top: 157px;
+		left: 0;
+	}
+
+	&.search{
+		position: absolute;
+		top: 234px;
+		left: 0;
+	}
+
+	&.cart{
+		position: absolute;
+		top: 311px;
+		left: 0;
+	}
 }
 
 .main-nav__link{
@@ -97,6 +121,16 @@
 	position: static;
 }
 
+.main-nav--no-js .main-nav__item{
+
+	&--catalog,
+	&--order,
+	&.search,
+	&.cart{
+		position: static;
+	}
+}
+
 .main-nav--no-js .main-nav__toggle{
 	display: none;
 }
@@ -111,6 +145,16 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.main-nav__item{
+
+		&--catalog,
+		&--order,
+		&.search,
+		&.cart{
+			position: static;
+		}
+}
 
 	.main-nav__item--hidden{
 		display: block;
