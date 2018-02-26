@@ -1,6 +1,6 @@
 ;(function(){
 	var navToggle = document.querySelector(".main-nav__toggle");
-	var hiddenOptions = document.querySelectorAll(".main-nav__item--hidden");
+	var hiddenOptions = document.querySelector(".main-nav__options");
 
 
 	navToggle.addEventListener("click", function(){
@@ -9,16 +9,12 @@
 			navToggle.classList.remove("main-nav__toggle--open");
 			navToggle.classList.add("main-nav__toggle--close");
 
-			hiddenOptions.forEach(function(elem){
-				elem.classList.remove("main-nav__item--hidden");
-			});
+			hiddenOptions.classList.remove("main-nav__options--hidden");
 		} else{
 			navToggle.classList.add("main-nav__toggle--open");
 			navToggle.classList.remove("main-nav__toggle--close");
 
-			hiddenOptions.forEach(function(elem){
-				elem.classList.add("main-nav__item--hidden");
-			});
+			hiddenOptions.classList.add("main-nav__options--hidden");
 		}
 	});
 

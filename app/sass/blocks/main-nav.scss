@@ -5,7 +5,15 @@
 }
 
 .main-nav__list{
+	position: relative;
+
+	min-height: 80px;
 	@include list-reset;
+}
+
+.main-nav__logo{
+	display: inline-block;
+	vertical-align: top;
 }
 
 .main-nav__item{
@@ -17,10 +25,6 @@
 
 	text-align: center;
 	border-bottom: 1px solid #ececec;
-}
-
-.main-nav__item--hidden{
-	display: none;
 }
 
 .main-nav__link{
@@ -38,11 +42,29 @@
 	font-weight: 700;
 	text-decoration: none;
 	color: #000;
+
+	background-color: #fff;
 }
 
 .main-nav__link--header{
-	padding-top: 23px;
-	padding-bottom: 23px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.main-nav__options{
+	position: absolute;
+	top: 80px;
+	left: 0;
+
+	width: 100%;
+}
+
+.main-nav__options-list{
+	@include list-reset();
+}
+
+.main-nav__options--hidden{
+	display: none;
 }
 
 .main-nav__additional{
