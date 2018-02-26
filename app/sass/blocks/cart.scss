@@ -1,0 +1,10 @@
+.cart__link{
+	background-image: url("../img/icon-cart.svg");
+	background-repeat: no-repeat;
+	background-size: 18px 19px;
+	background-position: 10% 30px;
+
+	&:hover{
+		background-image: url("../img/icon-cart-hover.svg");
+	}
+}

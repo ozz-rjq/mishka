@@ -23,7 +23,7 @@
 	box-sizing: border-box;
 	width: 100%;
 
-	text-align: center;
+	//text-align: center;
 	border-bottom: 1px solid #ececec;
 
 	&--catalog{
@@ -51,6 +51,10 @@
 	}
 }
 
+.main-nav__item--header{
+	text-align: center;
+}
+
 .main-nav__link{
 	display: inline-block;
 	vertical-align: top;
@@ -59,6 +63,7 @@
 	width: 100%;
 	padding-top: 26px;
 	padding-bottom: 26px;
+	padding-left: 23.5%;
 
 	font-family: $opensans;
 	font-size: 17px;
@@ -68,11 +73,20 @@
 	color: #000;
 
 	background-color: #fff;
+
+	&:hover{
+		color: rgba(#000, 0.6);
+	}
+
+	&:active{
+		color: rgba(#000, 0.3);
+	}
 }
 
 .main-nav__link--header{
 	padding-top: 22px;
 	padding-bottom: 22px;
+	padding-left: 0;
 }
 
 .main-nav__item--hidden{
