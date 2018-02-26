@@ -52,6 +52,8 @@
 }
 
 .main-nav__options{
+	display: none;
+
 	position: absolute;
 	top: 80px;
 	left: 0;
@@ -63,8 +65,8 @@
 	@include list-reset();
 }
 
-.main-nav__options--hidden{
-	display: none;
+.main-nav__options--show{
+	display: block;
 }
 
 .main-nav__additional{
@@ -101,5 +103,24 @@
 
 	&:focus{
 		outline: 1px solid rgba(#B6B8D0, 0.4);
+	}
+}
+
+.main-nav--no-js .main-nav__options{
+	display: block;
+	position: static;
+}
+
+.main-nav--no-js .main-nav__toggle{
+	display: none;
+}
+
+@media (min-width: $tablet-width){
+	.main-nav__options{
+		display: block;
+	}
+
+	.main-nav__toggle{
+		display: none;
 	}
 }

@@ -9,12 +9,12 @@
 			navToggle.classList.remove("main-nav__toggle--open");
 			navToggle.classList.add("main-nav__toggle--close");
 
-			hiddenOptions.classList.remove("main-nav__options--hidden");
+			hiddenOptions.classList.add("main-nav__options--show");
 		} else{
 			navToggle.classList.add("main-nav__toggle--open");
 			navToggle.classList.remove("main-nav__toggle--close");
 
-			hiddenOptions.classList.add("main-nav__options--hidden");
+			hiddenOptions.classList.remove("main-nav__options--show");
 		}
 	});
 
