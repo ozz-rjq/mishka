@@ -26,6 +26,10 @@
 @media (min-width: $tablet-width){
 	.page-header{
 		width: 100%;
+
+		&::before{
+			display: none;
+		}
 	}
 
 	.page-header__container{
@@ -43,5 +47,11 @@
 		line-height: 24px;
 		font-weight: 400;
 		color: #444;
+	}
+}
+
+@media (min-width: $desktop-width){
+	.page-header__info{
+		left: 74%;
 	}
 }
