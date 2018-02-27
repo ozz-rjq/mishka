@@ -7,4 +7,19 @@
 	&:hover{
 		background-image: url("../img/icon-cart-hover.svg");
 	}
+
+	&:active{
+		background-image: url("../img/icon-cart-active.svg");
+	}
+}
+
+@media (min-width: $tablet-width){
+	.cart{
+		height: 88px;
+	}
+
+	.cart__link{
+		height: 100%;
+		background-position: 16% 34px;
+	}
 }

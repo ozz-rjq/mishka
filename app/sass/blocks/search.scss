@@ -7,4 +7,28 @@
 	&:hover{
 		background-image: url("../img/icon-search-hover.svg");
 	}
+
+	&:active{
+		background-image: url("../img/icon-search-active.svg");
+	}
+}
+
+@media (min-width: $tablet-width){
+	.tablet-hidden{
+		@include visually-hidden;
+	}
+
+	.search{
+		box-sizing: border-box;
+		width: 84px;
+		height: 88px;
+
+		border-left: 1px solid #ececec;
+		border-right: 1px solid #ececec;
+	}
+
+	.search__link{
+		height: 100%;
+		background-position: 47% 34px;
+	}
 }

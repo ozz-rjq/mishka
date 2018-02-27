@@ -29,10 +29,19 @@
 	}
 
 	.page-header__container{
-		width: $tablet-width;
+		width: 100%;
 	}
 
 	.page-header__info{
 		display: block;
+
+		position: absolute;
+		top: 108px;
+		left: 63.8%;
+
+		font-size: 15px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #444;
 	}
 }
