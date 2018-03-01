@@ -1,0 +1,63 @@
+.option{
+	position: relative;
+
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 9.5%;
+	padding-right: 9.5%;
+	padding-top: 28px;
+	padding-bottom: 27px;
+
+	&--things{
+		background-color: #63d1bb;
+
+		&::after{
+			content: "";
+			position: absolute;
+			top: 23px;
+			right: 36px;
+
+			width: 41px;
+			height: 62px;
+			background-image: url("../img/icon-interior.svg");
+
+			opacity: 0.5;
+		}
+	}
+
+	&--toys{
+		background-color: #56c3b2;
+
+		&::after{
+			content: "";
+			position: absolute;
+			top: 20px;
+			right: 26px;
+
+			width: 61px;
+			height: 60px;
+			background-image: url("../img/icon-toy.svg");
+
+			opacity: 0.5;
+		}
+	}
+}
+
+.option__inner{
+	display: block;
+	width: 130px;
+
+	font-size: 19px;
+	line-height: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+
+	&:hover{
+		color: rgba(#fff, 0.8);
+	}
+
+	&:active{
+		color: rgba(#fff, 0.3);
+	}
+}
