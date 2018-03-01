@@ -10,9 +10,6 @@
 
 	&--things{
 		background-color: #63d1bb;
-		//background-image: url("../img/bg-zigzag-fill.svg");
-		background-position: center bottom;
-		background-repeat: no-repeat;
 
 		&::after{
 			content: "";
@@ -62,5 +59,25 @@
 
 	&:active{
 		color: rgba(#fff, 0.3);
+	}
+}
+
+@media (min-width: $tablet-width){
+	.option{
+		padding-top: 33px;
+		padding-bottom: 36px;
+
+		&--things{
+			background-image: url("../img/bg-zigzag-fill.svg");
+			background-position: -10px 102px;
+			background-repeat: no-repeat;
+		}
+
+		&--toys{
+			background-image: url("../img/bg-zigzag-fill.svg");
+			background-position: -0px 102px;
+			background-repeat: no-repeat;
+		}
+
 	}
 }

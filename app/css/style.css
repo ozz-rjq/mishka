@@ -787,9 +787,7 @@ body {
   padding-top: 28px;
   padding-bottom: 27px; }
   .option--things {
-    background-color: #63d1bb;
-    background-position: center bottom;
-    background-repeat: no-repeat; }
+    background-color: #63d1bb; }
     .option--things::after {
       content: "";
       position: absolute;
@@ -823,6 +821,19 @@ body {
     color: rgba(255, 255, 255, 0.8); }
   .option__inner:active {
     color: rgba(255, 255, 255, 0.3); }
+
+@media (min-width: 768px) {
+  .option {
+    padding-top: 33px;
+    padding-bottom: 36px; }
+    .option--things {
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-position: -10px 102px;
+      background-repeat: no-repeat; }
+    .option--toys {
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-position: -0px 102px;
+      background-repeat: no-repeat; } }
 
 .promo {
   width: 100%; }
@@ -869,7 +880,7 @@ body {
   .promo__options {
     width: 668px;
     margin: 0 auto;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
