@@ -521,7 +521,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  border-bottom: 1px solid #ececec; }
+  border-bottom: 1px solid #ececec;
+  z-index: 10; }
   .main-nav__item--catalog {
     position: absolute;
     top: 80px;
@@ -548,8 +549,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   padding-left: 23.5%;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
@@ -627,6 +628,8 @@ body {
     border-bottom: none; }
     .main-nav__item--catalog, .main-nav__item--order, .main-nav__item.search, .main-nav__item.cart {
       position: static; }
+  .main-nav__link {
+    background-color: transparent; }
   .main-nav__item--hidden {
     display: block; }
   .main-nav__item--header {
@@ -758,11 +761,14 @@ body {
       padding-right: 50px; }
   .main-nav__additional {
     display: block;
+    height: auto;
     -webkit-box-ordinal-group: 7;
     -webkit-order: 6;
         -ms-flex-order: 6;
             order: 6; }
   .main-nav__additional .main-nav__item {
+    display: inline-block;
+    vertical-align: top;
     width: 175px;
     margin-left: 50px;
     margin-top: 20px; }
@@ -837,3 +843,17 @@ body {
   line-height: 30px;
   font-weight: 700;
   text-align: center; }
+
+@media (min-width: 768px) {
+  .promo {
+    margin-top: -44px; }
+  .promo__header {
+    background-image: url("../img/hero-tablet@1x.jpg");
+    background-position: center top; } }
+
+@media (min-width: 1150px) {
+  .promo {
+    margin-top: -80px; }
+  .promo__header {
+    background-image: url("../img/hero-desktop@1x.jpg");
+    background-position: center top; } }

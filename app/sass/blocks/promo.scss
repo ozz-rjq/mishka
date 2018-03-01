@@ -29,3 +29,25 @@
 .promo__options{
 
 }
+
+@media (min-width: $tablet-width){
+	.promo{
+		margin-top: -44px;
+	}
+
+	.promo__header{
+		background-image: url("../img/hero-tablet@1x.jpg");
+		background-position: center top;
+	}
+}
+
+@media (min-width: $desktop-width){
+	.promo{
+		margin-top: -80px;
+	}
+
+	.promo__header{
+		background-image: url("../img/hero-desktop@1x.jpg");
+		background-position: center top;
+	}
+}

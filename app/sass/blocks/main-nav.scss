@@ -23,8 +23,8 @@
 	box-sizing: border-box;
 	width: 100%;
 
-	//text-align: center;
 	border-bottom: 1px solid #ececec;
+	z-index: 10;
 
 	&--catalog{
 		position: absolute;
@@ -61,8 +61,8 @@
 
 	box-sizing: border-box;
 	width: 100%;
-	padding-top: 26px;
-	padding-bottom: 26px;
+	padding-top: 27px;
+	padding-bottom: 27px;
 	padding-left: 23.5%;
 
 	font-family: $opensans;
@@ -181,6 +181,10 @@
 		&.cart{
 			position: static;
 		}
+	}
+
+	.main-nav__link{
+		background-color: transparent;
 	}
 
 	.main-nav__item--hidden{
@@ -340,11 +344,15 @@
 
 	.main-nav__additional{
 		display: block;
+		height: auto;
 
 		order: 6;
 	}
 
 	.main-nav__additional .main-nav__item{
+		display: inline-block;
+		vertical-align: top;
+
 		width: 175px;
 
 		margin-left: 50px;
