@@ -844,16 +844,41 @@ body {
   font-weight: 700;
   text-align: center; }
 
+.promo__options {
+  width: 100%; }
+
 @media (min-width: 768px) {
   .promo {
-    margin-top: -44px; }
+    margin-top: -44px;
+    background-color: #f8f8f8; }
   .promo__header {
+    padding-top: 157px;
+    padding-bottom: 370px;
     background-image: url("../img/hero-tablet@1x.jpg");
-    background-position: center top; } }
+    background-position: center top; }
+  .promo__title {
+    width: 520px;
+    font-size: 43px;
+    line-height: 50px;
+    font-weight: 700; }
+  .promo__options {
+    width: 668px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
 
 @media (min-width: 1150px) {
   .promo {
     margin-top: -80px; }
   .promo__header {
+    padding-top: 160px;
+    padding-bottom: 354px;
     background-image: url("../img/hero-desktop@1x.jpg");
-    background-position: center top; } }
+    background-position: center top; }
+  .promo__title {
+    width: 700px;
+    font-size: 53px;
+    line-height: 57px;
+    font-weight: 700; } }
