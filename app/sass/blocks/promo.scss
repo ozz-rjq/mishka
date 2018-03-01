@@ -35,6 +35,9 @@
 		margin-top: -44px;
 
 		background-color: #f8f8f8;
+		background-image: url("../img/bg-zigzag-fill.svg");
+		background-position: center bottom;
+		background-repeat: no-repeat;
 	}
 
 	.promo__header{
@@ -56,6 +59,7 @@
 	.promo__options{
 		width: 668px;
 		margin: 0 auto;
+		padding-bottom: 24px;
 
 		display: flex;
 	}
