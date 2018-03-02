@@ -69,15 +69,21 @@
 
 		&--things{
 			background-image: url("../img/bg-zigzag-fill.svg");
-			background-position: -10px 102px;
+			background-position: -10px 98px;
+			background-size: 655px;
 			background-repeat: no-repeat;
 		}
 
 		&--toys{
 			background-image: url("../img/bg-zigzag-fill.svg");
-			background-position: -0px 102px;
+			background-position: -21px 98px;
+			background-size: 655px;
 			background-repeat: no-repeat;
 		}
 
+		//rules osnly form ie10
+		@media screen and (min-width:0\0) {  
+		    width: 334px;
+		}
 	}
 }
