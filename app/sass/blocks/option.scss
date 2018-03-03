@@ -88,6 +88,8 @@
 	.option{
 		width: 525px;
 
+		transition: transform 0.35s;
+
 		&--things{
 		}
 
@@ -95,7 +97,7 @@
 		}
 
 		&:hover{
-
+			transform: translateY(-15px);
 		}
 	}
 

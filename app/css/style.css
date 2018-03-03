@@ -834,7 +834,16 @@ body {
 
 @media (min-width: 1150px) {
   .option {
-    width: 525px; }
+    width: 525px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: -webkit-transform 0.35s;
+    -o-transition: transform 0.35s;
+    transition: transform 0.35s;
+    transition: transform 0.35s, -webkit-transform 0.35s; }
+    .option:hover {
+      -webkit-transform: translateY(-15px);
+          -ms-transform: translateY(-15px);
+              transform: translateY(-15px); }
   .option__inner {
     padding-right: 346px; } }
 
