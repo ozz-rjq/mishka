@@ -3,10 +3,6 @@
 
 	box-sizing: border-box;
 	width: 100%;
-	padding-left: 9.5%;
-	padding-right: 9.5%;
-	padding-top: 28px;
-	padding-bottom: 27px;
 
 	&--things{
 		background-color: #63d1bb;
@@ -46,6 +42,10 @@
 .option__inner{
 	display: block;
 	width: 130px;
+	padding-left: 9.5%;
+	padding-right: 9.5%;
+	padding-top: 28px;
+	padding-bottom: 27px;
 
 	font-size: 19px;
 	line-height: 24px;
@@ -64,8 +64,6 @@
 
 @media (min-width: $tablet-width){
 	.option{
-		padding-top: 33px;
-		padding-bottom: 36px;
 
 		&--things{
 		}
@@ -78,17 +76,30 @@
 		    width: 334px;
 		}
 	}
+
+	.option__inner{
+		padding-top: 33px;
+		padding-bottom: 36px;
+		padding-right: 172px;
+	}
 }
 
 @media (min-width: $desktop-width){
 	.option{
 		width: 525px;
-		padding-left: 38px;
 
 		&--things{
 		}
 
 		&--toys{
 		}
+
+		&:hover{
+
+		}
+	}
+
+	.option__inner{
+		padding-right: 346px;
 	}
 }
