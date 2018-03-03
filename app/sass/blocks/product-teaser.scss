@@ -1,0 +1,41 @@
+.product-teaser{
+	width: 100%;
+}
+
+.product-teaser__container{
+	width: 260px;
+	margin: 0 auto;
+}
+
+.product-teaser__header{
+	margin-top: 30px;
+	margin-bottom: 24px;
+}
+
+.product-teaser__title{
+	margin: 0;
+	margin-bottom: 4px;
+
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.product-teaser__info{
+	font-size: 17px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #63d1bb;
+}
+
+.product-teaser__desc{
+	margin: 0;
+	margin-bottom: 14px;
+
+	font-size: 15px;
+	line-height: 24px;
+	color: #444444;
+}
+
+.product-teaser__table{
+	margin-bottom: 28px;
+}

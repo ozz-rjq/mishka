@@ -1,0 +1,22 @@
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table__row{
+
+	border-bottom: 1px solid #ececec;
+}
+
+.table__col{
+	padding-top: 11px;
+	padding-bottom: 8px;
+
+	font-size: 15px;
+	font-weight: 20px;
+	color: #444444;
+
+	&--narrow{
+		width: 100px;
+	}
+}
