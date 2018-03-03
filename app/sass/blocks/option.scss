@@ -68,22 +68,27 @@
 		padding-bottom: 36px;
 
 		&--things{
-			background-image: url("../img/bg-zigzag-fill.svg");
-			background-position: -10px 98px;
-			background-size: 655px;
-			background-repeat: no-repeat;
 		}
 
 		&--toys{
-			background-image: url("../img/bg-zigzag-fill.svg");
-			background-position: -21px 98px;
-			background-size: 655px;
-			background-repeat: no-repeat;
 		}
 
-		//rules osnly form ie10
+		//rules only for ie10
 		@media screen and (min-width:0\0) {  
 		    width: 334px;
+		}
+	}
+}
+
+@media (min-width: $desktop-width){
+	.option{
+		width: 525px;
+		padding-left: 38px;
+
+		&--things{
+		}
+
+		&--toys{
 		}
 	}
 }
