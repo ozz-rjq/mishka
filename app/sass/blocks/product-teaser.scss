@@ -1,5 +1,6 @@
 .product-teaser{
 	width: 100%;
+	margin-bottom: 35px;
 }
 
 .product-teaser__container{
@@ -29,7 +30,7 @@
 
 .product-teaser__desc{
 	margin: 0;
-	margin-bottom: 14px;
+	margin-bottom: 21px;
 
 	font-size: 15px;
 	line-height: 24px;
@@ -38,4 +39,15 @@
 
 .product-teaser__table{
 	margin-bottom: 28px;
+}
+
+.product-teaser__price{
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	font-size: 17px;
+	line-height: 24px;
+	text-align: center;
+	color: #444444;
 }
