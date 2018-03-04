@@ -4,7 +4,6 @@
 }
 
 .table__row{
-
 	border-bottom: 1px solid #ececec;
 }
 
@@ -21,3 +20,8 @@
 	}
 }
 
+@media (min-width: $tablet-width){
+	.table{
+		width: 290px;
+	}
+}

@@ -28,3 +28,9 @@
 		color: rgba(#fff, 0.3);
 	}
 }
+
+@media (min-width: $tablet-width){
+	.button{
+		width: 290px;
+	}
+}
