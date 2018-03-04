@@ -1076,6 +1076,10 @@ body {
   .product-teaser__desc {
     margin-left: 175px; }
   .product-teaser__table {
+    margin-left: 175px; }
+  .product-teaser__price {
+    margin-left: 175px; }
+  .product-teaser__button {
     margin-left: 175px; } }
 
 .table {
