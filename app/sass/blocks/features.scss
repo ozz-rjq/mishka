@@ -58,5 +58,60 @@
 		background-image: url("../img/icon-feature-gift.svg");
 		background-position: 3px 0;
 	}
+}
 
+@media (min-width: $tablet-width){
+	.features{
+		margin-bottom: 0;
+	}
+
+	.features__container{
+		width: 668px;
+	}
+
+	.features__title{
+		margin-top: 52px;
+		margin-bottom: 48px;
+
+		font-size: 43px;
+		line-height: 50px;
+	}
+
+	.features__list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.features__item{
+		width: 334px;
+		margin-bottom: 60px;
+
+		&--flower{
+			order: 1;
+		}
+
+		&--money{
+			order: 3;
+		}
+
+		&--heart{
+			order: 5;
+		}
+
+		&--ball{
+			order: 2;
+		}
+
+		&--rocket{
+			order: 4;
+		}
+
+		&--gift{
+			order: 6;
+		}
+
+		&:last-child{
+			margin-bottom: 82px;
+		}
+	}
 }
