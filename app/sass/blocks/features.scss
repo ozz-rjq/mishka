@@ -71,7 +71,7 @@
 
 	.features__title{
 		margin-top: 52px;
-		margin-bottom: 48px;
+		margin-bottom: 45px;
 
 		font-size: 43px;
 		line-height: 50px;
@@ -84,7 +84,10 @@
 
 	.features__item{
 		width: 334px;
-		margin-bottom: 60px;
+		margin-bottom: 58px;
+
+		font-size: 20px;
+		line-height: 22px;
 
 		&--flower{
 			order: 1;
@@ -111,7 +114,29 @@
 		}
 
 		&:last-child{
-			margin-bottom: 82px;
+			margin-bottom: 80px;
 		}
+	}
+}
+
+@media (min-width: $desktop-width){
+	.features{
+
+	}
+
+	.features__container{
+		width: 700px;
+	}
+
+	.features__title{
+		margin-top: 66px;
+		margin-bottom: 44px;
+
+		font-size: 53px;
+		line-height: 57px;
+	}
+
+	.features__item{
+		width: 350px;
 	}
 }
