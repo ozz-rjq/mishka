@@ -1,0 +1,56 @@
+.features{
+	width: 100%;
+}
+
+.features__container{
+	width: 260px;
+	margin: 0 auto;
+}
+
+.features__title{
+	margin-top: 30px;
+	margin-bottom: 28px;
+
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.features__list{
+	@include list-reset;
+}
+
+.features__item{
+	margin-bottom: 28px;
+	padding-top: 55px;
+
+	font-size: 17px;
+	line-height: 20px;
+	font-weight: 700;
+
+	background-repeat: no-repeat;
+
+	&--flower{
+		background-image: url("../img/icon-feature-flower.svg");
+	}
+
+	&--money{
+		background-image: url("../img/icon-feature-money.svg");
+	}
+
+	&--heart{
+		background-image: url("../img/icon-feature-heart.svg");
+	}
+
+	&--ball{
+		background-image: url("../img/icon-feature-ball.svg");
+	}
+
+	&--rocket{
+		background-image: url("../img/icon-feature-rocket.svg");
+	}
+
+	&--gift{
+		background-image: url("../img/icon-feature-gift.svg");
+	}
+
+}
