@@ -1,5 +1,6 @@
 .features{
 	width: 100%;
+	margin-bottom: 57px;
 }
 
 .features__container{
@@ -31,6 +32,7 @@
 
 	&--flower{
 		background-image: url("../img/icon-feature-flower.svg");
+		background-position: 7px 0;
 	}
 
 	&--money{
@@ -39,18 +41,22 @@
 
 	&--heart{
 		background-image: url("../img/icon-feature-heart.svg");
+		background-position: 7px 0;
 	}
 
 	&--ball{
 		background-image: url("../img/icon-feature-ball.svg");
+		background-position: 2px 0;
 	}
 
 	&--rocket{
 		background-image: url("../img/icon-feature-rocket.svg");
+		background-position: 0px 0;
 	}
 
 	&--gift{
 		background-image: url("../img/icon-feature-gift.svg");
+		background-position: 3px 0;
 	}
 
 }
