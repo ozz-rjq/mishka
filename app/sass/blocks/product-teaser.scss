@@ -127,11 +127,15 @@
 	.product-teaser__header{
 		justify-content: flex-start;
 
-		margin-top: 128px;
+		margin-top: 129px;
+		margin-bottom: 46px;
 	}
 
 	.product-teaser__title{
 		order: 2;
+
+		position: relative;
+		z-index: 2;
 
 		font-size: 53px;
 		line-height: 47px;
@@ -149,10 +153,12 @@
 
 	.product-teaser__desc{
 		margin-left: 175px;
+		margin-bottom: 60px;
 	}
 
 	.product-teaser__table{
 		margin-left: 175px;
+		margin-bottom: 110px;
 	}
 
 	.product-teaser__price{
@@ -161,6 +167,11 @@
 
 	.product-teaser__button{
 		margin-left: 175px;
+	}
+
+	.product-teaser__img{
+		top: -58px;
+		z-index: 1;
 	}
 }
 
