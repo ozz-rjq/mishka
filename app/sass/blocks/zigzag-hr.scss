@@ -14,3 +14,10 @@
 		background-size: auto 16px;
 	}
 }
+
+@media (min-width: $desktop-width){
+	.zigzag-hr{
+		height: 23px;
+		background-size: auto 23px;
+	}
+}
