@@ -1280,6 +1280,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
+  margin-bottom: 38px;
   border: 1px solid #ececec; }
   .reviews__controls::after {
     content: "";
@@ -1304,6 +1305,14 @@ body {
   .reviews__control--next {
     background-image: url("../img/icon-right-arrow.svg");
     background-position: center; }
+  .reviews__control:hover {
+    cursor: pointer;
+    opacity: 0.6; }
+  .reviews__control:active {
+    opacity: 0.3; }
+
+.reviews__write {
+  margin-bottom: 44px; }
 
 .reviews__slides {
   position: relative; }

@@ -45,8 +45,11 @@
 
 	display: flex;
 	justify-content: space-between;
+
 	box-sizing: border-box;
 	width: 100%;
+	margin-bottom: 38px;
+
 	border: 1px solid #ececec;
 
 	&::after{
@@ -79,6 +82,19 @@
 		background-image: url("../img/icon-right-arrow.svg");
 		background-position: center;
 	}
+
+	&:hover{
+		cursor: pointer;
+		opacity: 0.6;
+	}
+
+	&:active{
+		opacity: 0.3;
+	}
+}
+
+.reviews__write{
+	margin-bottom: 44px;
 }
 
 .reviews__slides{
