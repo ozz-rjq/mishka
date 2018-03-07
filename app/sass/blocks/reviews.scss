@@ -94,7 +94,7 @@
 }
 
 .reviews__write{
-	margin-bottom: 44px;
+	margin-bottom: 42px;
 }
 
 .reviews__slides{
@@ -103,9 +103,22 @@
 
 .reviews__slide{
 	display: none;
+	animation: slideTransition 0.4s;
 
 	&--active{
 		display: block;
+	}
+}
+
+@keyframes slideTransition{
+	0%{
+		opacity: 0;
+
+		transform: translateY(-5px);
+	}
+
+	100%{
+		opacity: 1;
 	}
 }
 
@@ -120,6 +133,7 @@
 @media (min-width: $tablet-width){
 	.reviews{
 		width: 100%;
+		margin-bottom: 48px;
 
 		background-image: url("../../img/review@1x.jpg");
 		background-repeat: no-repeat;
