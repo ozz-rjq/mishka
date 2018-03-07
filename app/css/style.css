@@ -423,6 +423,8 @@ body {
 .button {
   display: inline-block;
   vertical-align: top;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 260px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -430,6 +432,9 @@ body {
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #444444;
   background-color: transparent;
   border: 2px solid #444444;
   -webkit-transition: background-color 0.3s, color 0.2s;
@@ -1327,3 +1332,18 @@ body {
 
 .reviews__slider--no-js .reviews__controls {
   display: none; }
+
+@media (min-width: 768px) {
+  .reviews {
+    width: 100%;
+    background-image: url("../../img/review@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: top left; }
+  .reviews__container {
+    width: 668px;
+    padding-top: 80px; }
+  .reviews__title {
+    margin-bottom: 48px;
+    font-size: 43px;
+    line-height: 50px;
+    text-align: left; } }
