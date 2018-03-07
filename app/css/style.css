@@ -1363,7 +1363,7 @@ body {
         -ms-flex-order: 1;
             order: 1;
     min-width: 450px;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
     font-size: 43px;
     line-height: 50px;
     text-align: left; }
@@ -1373,12 +1373,26 @@ body {
         -ms-flex-order: 3;
             order: 3; }
   .reviews__desc {
-    min-height: 120px; }
+    min-height: 120px;
+    margin-bottom: 46px;
+    font-size: 17px;
+    line-height: 30px; }
+  .reviews__info {
+    margin-bottom: 44px; }
+  .reviews__author {
+    font-size: 18px;
+    line-height: 24px; }
+  .reviews__insta {
+    font-size: 17px;
+    line-height: 30px; }
   .reviews__controls {
     -webkit-box-ordinal-group: 5;
     -webkit-order: 4;
         -ms-flex-order: 4;
             order: 4;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
     width: 167px;
     border: none; }
     .reviews__controls:after {
