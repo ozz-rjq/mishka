@@ -36,5 +36,9 @@
 @media (min-width: $tablet-width){
 	.button{
 		width: 290px;
+
+		&--short{
+			width: 175px;
+		}
 	}
 }

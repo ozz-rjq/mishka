@@ -131,11 +131,45 @@
 		padding-top: 80px;
 	}
 
+	.reviews__slider{
+		position: relative;
+		
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
 	.reviews__title{
+		order: 1;
+
+		min-width: 450px;
 		margin-bottom: 48px;
 
 		font-size: 43px;
 		line-height: 50px;
 		text-align: left;
+	}
+
+	.reviews__slides{
+		order: 3;
+	}
+
+	.reviews__desc{
+		min-height: 120px;
+	}
+
+	.reviews__controls{
+		order: 4;
+
+		width: 167px;
+		border: none;
+
+		&:after{
+			display: none;
+		}
+	}
+
+	.reviews__write{
+		order: 2;
 	}
 }
