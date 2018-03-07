@@ -40,6 +40,47 @@
 	color: #444444;
 }
 
+.reviews__controls{
+	position: relative;
+
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #ececec;
+
+	&::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+
+		width: 2px;
+		height: 100%;
+		background-color: #ececec;
+	}
+}
+
+.reviews__control{
+	box-sizing: border-box;
+	width: 50%;
+	min-height: 52px;
+
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+
+	&--prev{
+		background-image: url("../img/icon-left-arrow.svg");
+		background-position: center;
+	}
+
+	&--next{
+		background-image: url("../img/icon-right-arrow.svg");
+		background-position: center;
+	}
+}
+
 .reviews__slides{
 	position: relative;
 }

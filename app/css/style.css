@@ -411,6 +411,15 @@ body {
   font-family: "Open Sans";
   font-weight: 400; }
 
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
 .button {
   display: inline-block;
   vertical-align: top;
@@ -1257,6 +1266,44 @@ body {
   font-size: 17px;
   line-height: 30px;
   color: #444444; }
+
+.reviews__controls {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ececec; }
+  .reviews__controls::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #ececec; }
+
+.reviews__control {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  min-height: 52px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none; }
+  .reviews__control--prev {
+    background-image: url("../img/icon-left-arrow.svg");
+    background-position: center; }
+  .reviews__control--next {
+    background-image: url("../img/icon-right-arrow.svg");
+    background-position: center; }
 
 .reviews__slides {
   position: relative; }

@@ -19,3 +19,7 @@ body{
 	font-family: "Open Sans";
 	font-weight: 400;
 }
+
+.visually-hidden{
+  @include visually-hidden();
+}
