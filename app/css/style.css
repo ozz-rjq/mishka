@@ -1425,7 +1425,8 @@ body {
 @media (min-width: 1150px) {
   .reviews {
     width: 1050px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 66px; }
   .reviews__container {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
