@@ -1448,3 +1448,10 @@ body {
     margin-bottom: 66px; }
   .reviews__controls {
     bottom: 35px; } }
+
+.contacts {
+  width: 100%; }
+
+.contacts__container {
+  width: 268px;
+  margin: 0 auto; }
