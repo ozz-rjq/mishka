@@ -16,7 +16,8 @@
 }
 
 .contacts__fields{
-
+	margin: 0;
+	margin-bottom: 34px;
 }
 
 .contacts__field{
@@ -27,6 +28,10 @@
 	font-size: 15px;	
 	line-height: 30px;
 	font-weight: 400;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
 }
 
 .contacts__key{
@@ -43,7 +48,14 @@
 }
 
 .contacts__map{
+	margin-bottom: 39px;
+	
+	text-align: center;
 
+	img{
+		display: inline-block;
+		vertical-align: top;
+	}
 }
 
 .contacts__write-us{

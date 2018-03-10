@@ -1462,6 +1462,10 @@ body {
   font-size: 18px;
   line-height: 30px; }
 
+.contacts__fields {
+  margin: 0;
+  margin-bottom: 34px; }
+
 .contacts__field {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1475,12 +1479,21 @@ body {
   font-size: 15px;
   line-height: 30px;
   font-weight: 400; }
+  .contacts__field:last-child {
+    margin-bottom: 0; }
 
 .contacts__value {
   display: block;
   width: 183px; }
   .contacts__value--bordered {
     border-bottom: 1px solid #62d1ba; }
+
+.contacts__map {
+  margin-bottom: 39px;
+  text-align: center; }
+  .contacts__map img {
+    display: inline-block;
+    vertical-align: top; }
 
 @media (min-width: 768px) {
   .contacts {
