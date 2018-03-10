@@ -49,7 +49,7 @@
 
 .contacts__map{
 	margin-bottom: 39px;
-	
+
 	text-align: center;
 
 	img{
@@ -68,35 +68,51 @@
 	}
 
 	.contacts__container{
-		
+		width: 668px;
+
+		&--2{
+			text-align: center;
+		}
 	}
 
 	.contacts__title{
+		margin-top: 65px;
+		margin-bottom: 47px;
 
+		font-size: 43px;
+		line-height: 50px;
 	}
 
 	.contacts__fields{
+		display: flex;
+		justify-content: space-between;
 
+		margin-bottom: 54px;
 	}
 
 	.contacts__field{
+		width: 334px;
 
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
 
 	.contacts__key{
-
+		width: 77px;
 	}
 
 	.contacts__value{
-
+		width: auto;
 	}
 
 	.contacts__map{
-
+		margin-bottom: 55px;
 	}
 
 	.contacts__write-us{
-
+		display: inline-block;
+		vertical-align: top;
+		width: 230px;
 	}
 }
 
