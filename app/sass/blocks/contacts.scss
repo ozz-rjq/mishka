@@ -8,7 +8,11 @@
 }
 
 .contacts__title{
+	margin-top: 38px;
+	margin-bottom: 26px;
 
+	font-size: 18px;
+	line-height: 30px;
 }
 
 .contacts__fields{
@@ -16,7 +20,13 @@
 }
 
 .contacts__field{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
 
+	font-size: 15px;	
+	line-height: 30px;
+	font-weight: 400;
 }
 
 .contacts__key{
@@ -24,7 +34,12 @@
 }
 
 .contacts__value{
+	display: block;
+	width: 183px;
 
+	&--bordered{
+		border-bottom: 1px solid #62d1ba;
+	}
 }
 
 .contacts__map{

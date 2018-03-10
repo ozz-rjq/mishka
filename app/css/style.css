@@ -1455,3 +1455,37 @@ body {
 .contacts__container {
   width: 268px;
   margin: 0 auto; }
+
+.contacts__title {
+  margin-top: 38px;
+  margin-bottom: 26px;
+  font-size: 18px;
+  line-height: 30px; }
+
+.contacts__field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400; }
+
+.contacts__value {
+  display: block;
+  width: 183px; }
+  .contacts__value--bordered {
+    border-bottom: 1px solid #62d1ba; }
+
+@media (min-width: 768px) {
+  .contacts {
+    width: 100%; } }
+
+@media (min-width: 1150px) {
+  .contacts {
+    width: 100%; } }
