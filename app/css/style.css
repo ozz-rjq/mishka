@@ -1536,7 +1536,8 @@ body {
   .contacts__write-us {
     display: inline-block;
     vertical-align: top;
-    width: 230px; } }
+    width: 230px;
+    margin-bottom: 57px; } }
 
 @media (min-width: 1150px) {
   .contacts {
