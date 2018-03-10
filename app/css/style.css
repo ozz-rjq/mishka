@@ -1502,3 +1502,9 @@ body {
 @media (min-width: 1150px) {
   .contacts {
     width: 100%; } }
+
+.map {
+  width: 100%;
+  height: 457px;
+  max-height: 457px;
+  overflow: hidden; }
