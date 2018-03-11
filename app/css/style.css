@@ -1495,6 +1495,9 @@ body {
     display: inline-block;
     vertical-align: top; }
 
+.contacts__write-us {
+  margin-bottom: 39px; }
+
 @media (min-width: 768px) {
   .contacts {
     width: 100%; }
