@@ -68,10 +68,25 @@
 	}
 
 	.contacts__container{
+		position: relative;
+
 		width: 668px;
 
 		&--2{
 			text-align: center;
+		}
+
+		&::after{
+			content: "";
+			position: absolute;
+			top: -20px;
+			right: 3px;
+
+			width: 47px;
+			height: 81px;
+
+			background-image: url("../img/icon-flag.svg");
+			background-repeat: no-repeat;
 		}
 	}
 

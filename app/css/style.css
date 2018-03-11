@@ -1502,9 +1502,19 @@ body {
   .contacts {
     width: 100%; }
   .contacts__container {
+    position: relative;
     width: 668px; }
     .contacts__container--2 {
       text-align: center; }
+    .contacts__container::after {
+      content: "";
+      position: absolute;
+      top: -20px;
+      right: 3px;
+      width: 47px;
+      height: 81px;
+      background-image: url("../img/icon-flag.svg");
+      background-repeat: no-repeat; }
   .contacts__title {
     margin-top: 65px;
     margin-bottom: 47px;
