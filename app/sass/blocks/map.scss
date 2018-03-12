@@ -4,3 +4,10 @@
 	max-height: 457px;
 	overflow: hidden;
 }
+
+@media (min-width: $desktop-width){
+	.map{
+		width: 525px;
+		height: 457px;
+	}
+}
