@@ -1,0 +1,33 @@
+.page-footer{
+	background-color: #f1f1f1;
+}
+
+.page-footer__container{
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+
+.page-footer__col{
+
+	&--mobile-hidden{
+		display: none;
+	}
+}
+
+.page-footer__social{
+	position: relative;
+
+	margin-bottom: 28px;
+
+	&::after{
+		content: "";
+		position: absolute;
+		bottom: -24px;
+		left: 0;
+		right: 0;
+
+		height: 1px;
+		background-color: #e5e5e5;
+	}
+}

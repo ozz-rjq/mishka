@@ -1,0 +1,41 @@
+.social{
+	@include list-reset();
+
+	text-align: center;
+}
+
+.social__item{
+	display: inline-block;
+	vertical-align: middle;
+
+	margin-right: 41px;
+
+	&:last-child{
+		margin-right: 0;
+	}
+}
+
+.social__link{
+	display: inline-block;
+	vertical-align: baseline;
+
+	background-repeat: no-repeat;
+
+	&--instagram{
+		width: 22px;
+		height: 21px;
+		background-image: url("../img/icon-insta.svg");
+	}
+
+	&--facebook{
+		width: 15px;
+		height: 29px;
+		background-image: url("../img/icon-fb.svg");
+	}
+
+	&--twitter{
+		width: 24px;
+		height: 20px;
+		background-image: url("../img/icon-twitter.svg");
+	}
+}
