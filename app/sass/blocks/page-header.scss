@@ -41,7 +41,8 @@
 
 		position: absolute;
 		top: 108px;
-		left: 63.8%;
+		left: 63%;
+		z-index: 5;
 
 		font-size: 15px;
 		line-height: 24px;
@@ -52,6 +53,19 @@
 
 @media (min-width: $desktop-width){
 	.page-header__info{
-		left: 74%;
+		left: 75%;
 	}
 }
+
+@media (min-width: 1400px){
+	.page-header__info{
+		left: 70%;
+	}
+}
+
+@media (min-width: 1800px){
+	.page-header__info{
+		left: 65%;
+	}
+}
+

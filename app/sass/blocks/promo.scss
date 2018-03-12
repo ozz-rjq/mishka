@@ -33,6 +33,7 @@
 @media (min-width: $tablet-width){
 	.promo{
 		position: relative;
+		z-index: 3;
 
 		margin-top: -44px;
 		background-color: #f8f8f8;
