@@ -1639,8 +1639,13 @@ body {
   margin: 0 auto;
   padding-top: 24px; }
 
-.page-footer__col--mobile-hidden {
-  display: none; }
+.page-footer__col {
+  text-align: center; }
+  .page-footer__col--1 {
+    display: none; }
+  .page-footer__col--3 {
+    padding-top: 22px;
+    padding-bottom: 32px; }
 
 .page-footer__social {
   position: relative;
@@ -1648,8 +1653,16 @@ body {
   .page-footer__social::after {
     content: "";
     position: absolute;
-    bottom: -24px;
+    bottom: -26px;
     left: 0;
     right: 0;
     height: 1px;
     background-color: #e5e5e5; }
+
+.page-footer__created {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 28px; }
+
+.page-footer__image {
+  vertical-align: middle; }
