@@ -1608,7 +1608,8 @@ body {
     margin: 0;
     margin-left: 175px; }
     .contacts__container--1::after {
-      right: 400px; }
+      top: -8px;
+      right: 409px; }
     .contacts__container--2 {
       position: absolute;
       top: -76px;
