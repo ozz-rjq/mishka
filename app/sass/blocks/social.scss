@@ -25,17 +25,33 @@
 		width: 22px;
 		height: 21px;
 		background-image: url("../img/icon-insta.svg");
+
+		&:hover{
+			background-image: url("../img/icon-insta-hover.svg");
+		}
 	}
 
 	&--facebook{
 		width: 15px;
 		height: 29px;
 		background-image: url("../img/icon-fb.svg");
+
+		&:hover{
+			background-image: url("../img/icon-fb-hover.svg");
+		}
 	}
 
 	&--twitter{
 		width: 24px;
 		height: 20px;
 		background-image: url("../img/icon-twitter.svg");
+
+		&:hover{
+			background-image: url("../img/icon-twitter-hover.svg");
+		}
+	}
+
+	&:active{
+		opacity: 0.3;
 	}
 }

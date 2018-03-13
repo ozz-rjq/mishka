@@ -497,14 +497,22 @@ body {
     width: 22px;
     height: 21px;
     background-image: url("../img/icon-insta.svg"); }
+    .social__link--instagram:hover {
+      background-image: url("../img/icon-insta-hover.svg"); }
   .social__link--facebook {
     width: 15px;
     height: 29px;
     background-image: url("../img/icon-fb.svg"); }
+    .social__link--facebook:hover {
+      background-image: url("../img/icon-fb-hover.svg"); }
   .social__link--twitter {
     width: 24px;
     height: 20px;
     background-image: url("../img/icon-twitter.svg"); }
+    .social__link--twitter:hover {
+      background-image: url("../img/icon-twitter-hover.svg"); }
+  .social__link:active {
+    opacity: 0.3; }
 
 .page-header {
   position: relative;
@@ -1684,3 +1692,9 @@ body {
 
 .page-footer__image {
   vertical-align: middle; }
+  .page-footer__image path {
+    fill: #63d1bb; }
+  .page-footer__image:hover path {
+    fill: #46c1ae; }
+  .page-footer__image:active {
+    opacity: 0.3; }

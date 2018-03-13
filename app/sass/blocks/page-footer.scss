@@ -50,4 +50,19 @@
 
 .page-footer__image{
 	vertical-align: middle;
+
+	path{
+		fill: #63d1bb;
+	}
+
+	&:hover{
+
+		path{
+			fill: #46c1ae;
+		}
+	}
+
+	&:active{
+		opacity: 0.3;
+	}
 }
