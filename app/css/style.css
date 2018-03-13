@@ -410,6 +410,9 @@ template {
 body {
   font-family: "Open Sans";
   font-weight: 400; }
+  body::after {
+    display: none;
+    content: url("../img/icon-search-hover.svg") url("../img/icon-search-active.svg") url("../img/icon-cart-hover.svg") url("../img/icon-cart-active.svg"); }
 
 .visually-hidden {
   position: absolute !important;
