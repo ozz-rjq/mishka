@@ -100,6 +100,16 @@
 	.page-footer__logo{
 		display: inline-block;
 		vertical-align: top;
+
+		&:hover{
+			path{
+				fill: #46c1ae;
+			}
+		}
+
+		&:active{
+			opacity: 0.3;
+		}
 	}
 
 	.page-footer__social{
@@ -108,5 +118,15 @@
 		&::after{
 			display: none;
 		}
+	}
+}
+
+@media (min-width: $desktop-width){
+	.page-footer{
+
+	}
+
+	.page-footer__container{
+		width: 1050px;
 	}
 }

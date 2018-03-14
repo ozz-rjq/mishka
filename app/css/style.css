@@ -412,7 +412,7 @@ body {
   font-weight: 400; }
   body::after {
     display: none;
-    content: url("../img/icon-search-hover.svg") url("../img/icon-search-active.svg") url("../img/icon-cart-hover.svg") url("../img/icon-cart-active.svg"); }
+    content: url("../img/icon-search-hover.svg") url("../img/icon-search-active.svg") url("../img/icon-cart-hover.svg") url("../img/icon-cart-active.svg") url("../img/icon-fb-hover.svg") url("../img/icon-insta-hover.svg") url("../img/icon-twitter-hover.svg"); }
 
 .visually-hidden {
   position: absolute !important;
@@ -1730,7 +1730,15 @@ body {
   .page-footer__logo {
     display: inline-block;
     vertical-align: top; }
+    .page-footer__logo:hover path {
+      fill: #46c1ae; }
+    .page-footer__logo:active {
+      opacity: 0.3; }
   .page-footer__social {
     margin-bottom: 0; }
     .page-footer__social::after {
       display: none; } }
+
+@media (min-width: 1150px) {
+  .page-footer__container {
+    width: 1050px; } }
