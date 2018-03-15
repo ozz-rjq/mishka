@@ -683,8 +683,13 @@ body {
     color: rgba(0, 0, 0, 0.6); }
   .main-nav__link:active {
     color: rgba(0, 0, 0, 0.3); }
+  .main-nav__link:not([href]):hover {
+    cursor: default;
+    color: #000; }
 
 .main-nav__link--header {
+  display: inline-block;
+  width: auto;
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 0; }

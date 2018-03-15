@@ -81,9 +81,19 @@
 	&:active{
 		color: rgba(#000, 0.3);
 	}
+
+	&:not([href]){
+		&:hover{
+			cursor: default;
+			color: #000;
+		}
+	}
 }
 
 .main-nav__link--header{
+	display: inline-block;
+
+	width: auto;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	padding-left: 0;

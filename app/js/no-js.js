@@ -5,9 +5,11 @@
 		mainNav.classList.remove("main-nav--no-js");
 	}
 
-	if (document.querySelector(".reviews__slider").
-			classList.
-			contains("reviews__slider--no-js")){
-		document.querySelector(".reviews__slider").classList.remove("reviews__slider--no-js");
+	if (document.querySelector(".reviews__slider")){
+		if (document.querySelector(".reviews__slider").
+				classList.
+				contains("reviews__slider--no-js")){
+			document.querySelector(".reviews__slider").classList.remove("reviews__slider--no-js");
+		}
 	}
 })();
