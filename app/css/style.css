@@ -1751,3 +1751,19 @@ body {
 @media (min-width: 1150px) {
   .page-footer__container {
     width: 1050px; } }
+
+.main-header {
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-bottom: 30px; }
+
+.main-header__container {
+  width: 100%; }
+
+.main-header__title {
+  margin: 0;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center; }
