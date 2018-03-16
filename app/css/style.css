@@ -1426,6 +1426,8 @@ body {
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: center left; }
+    .reviews--no-js {
+      background-image: none; }
   .reviews__container {
     width: 668px;
     padding-top: 80px; }
@@ -1462,6 +1464,8 @@ body {
     margin-bottom: 46px;
     font-size: 17px;
     line-height: 30px; }
+  .reviews--no-js .reviews__desc {
+    min-height: auto; }
   .reviews__info {
     margin-bottom: 44px; }
   .reviews__author {
