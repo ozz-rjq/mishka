@@ -16,3 +16,17 @@
 		width: 668px;
 	}
 }
+
+@media (min-width: $desktop-width){
+	.catalog{
+
+	}
+
+	.catalog__container{
+		width: 1050px;
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}

@@ -64,7 +64,7 @@
 	border: none;
 	background-color: transparent;
 
-	width: 21px;
+	width: 19px;
 	height: 20px;
 
 	background-image: url("../img/icon-cart.svg");
@@ -88,6 +88,8 @@
 @media (min-width: $tablet-width){
 	.product{
 		display: flex;
+
+		margin-bottom: 54px;
 	}
 
 	.product__img{
@@ -119,10 +121,40 @@
 
 	.product__hr{
 		width: 268px;
+		margin-top: 0;
 	}
 
 	.product__price-value{
 		font-size: 17px;
 		line-height: 24px;
 	}
+}
+
+@media (min-width: $desktop-width){
+	.product{
+		width: 316px;
+
+		display: block;
+	}
+
+	.product__img{
+		height: 462px;
+		width: 316px;
+
+		img{
+			width: 316px;
+			height: 462px;
+		}
+	}
+
+	.product__info{
+		min-height: 197px;
+		width: 316px;
+	}
+
+	.product__title{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
 }
