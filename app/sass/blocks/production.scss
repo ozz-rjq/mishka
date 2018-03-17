@@ -92,6 +92,10 @@
 		width: 100%;
 		margin-left: 42px;
 		margin-bottom: 33px;
+
+		font-size: 15px;
+		line-height: 30px;
+		color: #444;
 	}
 
 	.production__submit{
@@ -111,14 +115,27 @@
 	}
 
 	.production__container{
+		display: block;
+		box-sizing: border-box;
+
 		width: 367px;
 		min-height: 455px;
-		margin-left: 681px;
+		margin-left: 682px;
 		margin-bottom: 105px;
+		padding-left: 78px;
 	}
 
 	.production__title{
-		width: 260px;
+		width: 200px;
+		margin-top: 46px;
+		margin-bottom: 35px;
+		padding-top: 50px;
+		padding-left: 0;
+
+		font-size: 20px;
+		line-height: 24px;
+
+		background-position: 0px 0px;
 	}
 
 	.production__video{
@@ -134,10 +151,17 @@
 	}
 
 	.production__desc{
-		width: 240px;
+		width: 230px;
+		margin-left: 0;
+		margin-bottom: 44px;
+
+		font-size: 15px;
+		line-height: 30px;
+		color: #444;
 	}
 
 	.production__submit{
-		width: 240px;
+		width: 230px;
+		margin-left: 0;
 	}
 }
