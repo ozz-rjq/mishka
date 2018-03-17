@@ -6,3 +6,13 @@
 	width: 260px;
 	margin: 0 auto;
 }
+
+@media (min-width: $tablet-width){
+	.catalog{
+
+	}
+
+	.catalog__container{
+		width: 668px;
+	}
+}
