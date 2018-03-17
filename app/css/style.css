@@ -1799,3 +1799,57 @@ body {
     padding-bottom: 98px;
     font-size: 53px;
     line-height: 57px; } }
+
+.catalog__container {
+  width: 260px;
+  margin: 0 auto; }
+
+.product {
+  margin-bottom: 30px; }
+
+.product__img img {
+  display: block;
+  width: 260px;
+  height: 195px; }
+
+.product__info {
+  position: relative;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: 1px solid #ededed; }
+
+.product__title {
+  margin-top: 27px;
+  margin-bottom: 6px;
+  font-size: 17px;
+  line-height: 24px; }
+
+.product__details {
+  font-size: 13px;
+  line-height: 30px;
+  color: #444444; }
+
+.product__hr {
+  display: block;
+  margin-top: 17px;
+  margin-left: 0;
+  margin-bottom: 24px;
+  width: 205px;
+  height: 1px;
+  background-color: #ececec;
+  border: none; }
+
+.product__price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px; }
+
+.product__price-value {
+  font-size: 15px;
+  line-height: 24px; }
