@@ -1968,11 +1968,21 @@ body {
   background-position: 34px 8px; }
 
 .production__video {
+  position: relative;
   margin-bottom: 29px; }
   .production__video img {
     display: block;
     width: 260px;
     height: 148px; }
+  .production__video::after {
+    content: "";
+    position: absolute;
+    top: 36px;
+    left: 79px;
+    width: 102px;
+    height: 78px;
+    background-image: url("../img/icon-play.svg");
+    background-repeat: no-repeat; }
 
 .production__desc {
   width: 190px;
@@ -2021,6 +2031,9 @@ body {
     .production__video img {
       width: 100%;
       height: 100%; }
+    .production__video::after {
+      top: 189px;
+      left: 283px; }
   .production__desc {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
