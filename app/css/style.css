@@ -1934,6 +1934,7 @@ body {
 @media (min-width: 1150px) {
   .product {
     width: 316px;
+    margin-bottom: 53px;
     display: block; }
   .product__img {
     height: 462px;
@@ -2036,3 +2037,27 @@ body {
     width: 582px;
     margin-left: 42px;
     margin-bottom: 45px; } }
+
+@media (min-width: 1150px) {
+  .production {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto; }
+  .production__container {
+    width: 367px;
+    min-height: 455px;
+    margin-left: 681px;
+    margin-bottom: 105px; }
+  .production__title {
+    width: 260px; }
+  .production__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 682px; }
+    .production__video img {
+      width: 682px; }
+  .production__desc {
+    width: 240px; }
+  .production__submit {
+    width: 240px; } }
