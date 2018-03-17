@@ -1,21 +1,53 @@
 .production{
-
+	margin-bottom: 58px;
 }
 
 .production__container{
+	width: 260px;
+	margin: 0 auto;
 
+	border: 1px solid #ececec;
 }
 
 .production__title{
+	margin-top: 24px;
+	margin-bottom: 22px;
+	padding-left: 90px;
 
+	font-size: 17px;
+	line-height: 24px;
+
+	background-image: url("../img/icon-video.svg");
+	background-repeat: no-repeat;
+	background-position: 34px 8px;
+}
+
+.production__video{
+	margin-bottom: 29px;
+
+	img{
+		display: block;
+		width: 260px;
+		height: 148px;
+	}
 }
 
 .production__desc{
+	width: 190px;
+	margin-left: 34px;
+	margin-bottom: 23px;
 
+	font-size: 13px;
+	line-height: 24px;
 }
 
 .production__submit{
+	width: 192px;
+	margin-left: 34px;
+	margin-bottom: 32px;
 
+	font-size: 17px;
+	line-height: 16px;
 }
 
 @media (min-width: $tablet-width){
