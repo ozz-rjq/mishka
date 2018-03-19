@@ -48,18 +48,12 @@
 	line-height: 18px;
 }
 
-.page-footer__image{
+.page-footer__htmlacademy{
 	vertical-align: middle;
-
-	path{
-		fill: #63d1bb;
-	}
-
+	fill: #63d1bb;
+	
 	&:hover{
-
-		path{
-			fill: #46c1ae;
-		}
+		fill: #46c1ae;
 	}
 
 	&:active{
@@ -101,14 +95,16 @@
 		display: inline-block;
 		vertical-align: top;
 
-		&:hover{
-			path{
-				fill: #46c1ae;
-			}
-		}
-
 		&:active{
 			opacity: 0.3;
+		}
+	}
+
+	.page-footer__mishka{
+		transition: fill 0.2s;
+
+		&:hover{
+			fill: #46c1ae;
 		}
 	}
 

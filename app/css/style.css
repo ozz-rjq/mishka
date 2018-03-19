@@ -1707,13 +1707,12 @@ body {
   font-size: 19px;
   line-height: 18px; }
 
-.page-footer__image {
-  vertical-align: middle; }
-  .page-footer__image path {
-    fill: #63d1bb; }
-  .page-footer__image:hover path {
+.page-footer__htmlacademy {
+  vertical-align: middle;
+  fill: #63d1bb; }
+  .page-footer__htmlacademy:hover {
     fill: #46c1ae; }
-  .page-footer__image:active {
+  .page-footer__htmlacademy:active {
     opacity: 0.3; }
 
 @media (min-width: 768px) {
@@ -1739,10 +1738,14 @@ body {
   .page-footer__logo {
     display: inline-block;
     vertical-align: top; }
-    .page-footer__logo:hover path {
-      fill: #46c1ae; }
     .page-footer__logo:active {
       opacity: 0.3; }
+  .page-footer__mishka {
+    -webkit-transition: fill 0.2s;
+    -o-transition: fill 0.2s;
+    transition: fill 0.2s; }
+    .page-footer__mishka:hover {
+      fill: #46c1ae; }
   .page-footer__social {
     margin-bottom: 0; }
     .page-footer__social::after {
