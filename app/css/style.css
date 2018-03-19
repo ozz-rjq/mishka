@@ -698,6 +698,16 @@ body {
   padding-bottom: 22px;
   padding-left: 0; }
 
+.main-nav__link[href] .main-nav__logo {
+  -webkit-transition: opacity 0.3s, fill 0.15s;
+  -o-transition: opacity 0.3s, fill 0.15s;
+  transition: opacity 0.3s, fill 0.15s; }
+  .main-nav__link[href] .main-nav__logo:hover {
+    opacity: 0.6;
+    fill: #294640; }
+  .main-nav__link[href] .main-nav__logo:active {
+    opacity: 0.3; }
+
 .main-nav__item--hidden {
   display: none; }
 
@@ -1757,11 +1767,11 @@ body {
     vertical-align: top; }
     .page-footer__logo:active {
       opacity: 0.3; }
-  .page-footer__mishka {
+  .page-footer__logo[href] .page-footer__mishka {
     -webkit-transition: fill 0.2s;
     -o-transition: fill 0.2s;
     transition: fill 0.2s; }
-    .page-footer__mishka:hover {
+    .page-footer__logo[href] .page-footer__mishka:hover {
       fill: #46c1ae; }
   .page-footer__social {
     margin-bottom: 0; }

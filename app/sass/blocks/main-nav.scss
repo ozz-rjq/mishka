@@ -107,6 +107,20 @@
 	padding-left: 0;
 }
 
+.main-nav__link[href] .main-nav__logo{
+	transition: opacity 0.3s,
+							fill 0.15s;
+
+	&:hover{
+		opacity: 0.6;
+		fill: #294640;
+	}
+
+	&:active{
+		opacity: 0.3;
+	}
+}
+
 .main-nav__item--hidden{
 	display: none;
 }
