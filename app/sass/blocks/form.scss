@@ -37,9 +37,17 @@
 
 .form__label{
 	display: block;
-	padding-top: 13px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 9px;
 	padding-left: 64px;
+
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.form__info-label{
+	display: block;
 
 	font-size: 17px;
 	line-height: 18px;
