@@ -2154,6 +2154,15 @@ body {
   font-weight: 700;
   color: #63d1bb; }
 
+.form__label {
+  display: block;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 64px;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700; }
+
 @media (min-width: 768px) {
   .form {
     width: 100%; }
