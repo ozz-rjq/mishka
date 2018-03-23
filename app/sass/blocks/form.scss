@@ -1,0 +1,16 @@
+.form{
+	width: 260px;
+	margin: 0 auto;
+}
+
+.form__desc{
+	margin-bottom: 21px;
+	
+	font-size: 13px;
+	line-height: 24px;
+	color: #444444;
+}
+
+.main-header + .form{
+	margin-bottom: 24px;
+}
