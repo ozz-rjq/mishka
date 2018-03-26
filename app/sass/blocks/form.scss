@@ -63,8 +63,24 @@
 	font-size: 17px;
 	line-height: 18px;
 
-	border: none;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
 	border-bottom: 2px solid #000;
+
+	transition: border-bottom-color 0.2s;
+
+	&:hover{
+		border-bottom-color: #62d1ba;
+	}
+
+	&:active{
+		border-bottom-color: #62d1ba;
+	}
+
+	&:focus{
+		border-bottom-color: #62d1ba;
+	}
 }
 
 .form__textarea{
@@ -77,6 +93,18 @@
 	color: #444444;
 
 	border: 2px solid #000;
+
+	&:hover{
+		border-color: #62d1ba;
+	}
+
+	&:active{
+		border-color: #62d1ba;
+	}
+
+	&:focus{
+		border-color: #62d1ba;
+	}
 }
 
 .form__necessarily{
