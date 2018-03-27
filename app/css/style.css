@@ -2188,7 +2188,15 @@ body {
   height: 16px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  background-color: #62d1ba; }
+  background-color: #62d1ba;
+  opacity: 0;
+  trasition: opacity 0.2s; }
+
+.form__label--radio input {
+  display: none; }
+
+.form__radio:checked + span {
+  opacity: 1; }
 
 .form__info-label {
   display: block;

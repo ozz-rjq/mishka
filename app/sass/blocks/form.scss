@@ -77,7 +77,19 @@
 
 		border-radius: 50%;
 		background-color: #62d1ba;
+
+		opacity: 0;
+
+		trasition: opacity 0.2s;
 	}
+
+	input{
+		display: none;
+	}
+}
+
+.form__radio:checked + span{
+	opacity: 1;
 }
 
 .form__info-label{
