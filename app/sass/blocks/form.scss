@@ -36,6 +36,8 @@
 }
 
 .form__label{
+	position: relative;
+
 	display: block;
 	padding-top: 12px;
 	padding-bottom: 9px;
@@ -44,6 +46,38 @@
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 700;
+}
+
+.form__label--radio{
+	&::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		box-sizing: border-box;
+		width: 40px;
+		height: 40px;
+
+		border: 2px solid #444444;
+		border-radius: 50%;
+	}
+
+	&:hover::after{
+		border-color: #62d1ba;
+	}
+
+	span{
+		position: absolute;
+		top: 12px;
+		left: 12px;
+
+		width: 16px;
+		height: 16px;
+
+		border-radius: 50%;
+		background-color: #62d1ba;
+	}
 }
 
 .form__info-label{
