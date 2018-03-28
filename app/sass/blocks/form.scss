@@ -140,6 +140,10 @@
 
 		opacity: 0;
 	}
+
+	input{
+		display: none;
+	}
 }
 
 .form__radio:checked + span{
@@ -157,9 +161,14 @@
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 700;
+
+	&--first{
+		margin-top: 0;
+	}
 }
 
 .form__input{
+	box-sizing: border-box;
 	width: 100%;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -185,6 +194,10 @@
 	&:focus{
 		border-bottom-color: #62d1ba;
 	}
+}
+
+.form__input--phone{
+	padding-right: 35px;
 }
 
 .form__textarea{

@@ -2236,6 +2236,8 @@ body {
     -o-transition: opacity 0.1s;
     transition: opacity 0.1s;
     opacity: 0; }
+  .form__label--checkbox input {
+    display: none; }
 
 .form__radio:checked + span {
   opacity: 1; }
@@ -2249,8 +2251,12 @@ body {
   font-size: 17px;
   line-height: 18px;
   font-weight: 700; }
+  .form__info-label--first {
+    margin-top: 0; }
 
 .form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2269,6 +2275,9 @@ body {
     border-bottom-color: #62d1ba; }
   .form__input:focus {
     border-bottom-color: #62d1ba; }
+
+.form__input--phone {
+  padding-right: 35px; }
 
 .form__textarea {
   -webkit-box-sizing: border-box;
