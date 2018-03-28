@@ -49,6 +49,12 @@
 }
 
 .form__label--radio{
+	margin-bottom: 4px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
 	&::after{
 		content: "";
 		position: absolute;
@@ -89,7 +95,28 @@
 }
 
 .form__label--checkbox{
-	
+	margin-bottom: 22px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	&::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		box-sizing: border-box;
+		width: 40px;
+		height: 40px;
+
+		border: 2px solid #444444;
+	}
+
+	&:hover::after{
+		border-color: #62d1ba;
+	}
 }
 
 .form__radio:checked + span{
