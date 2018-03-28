@@ -197,7 +197,18 @@
 }
 
 .form__input--phone{
+	position: relative;
+
 	padding-right: 35px;
+
+	background-image: url("../img/icon-phone.svg");
+	background-size: 24px 25px;
+	background-position: 230px 12px;
+	background-repeat: no-repeat;
+}
+
+.form__input--email{
+	padding-right: 40px;
 }
 
 .form__textarea{

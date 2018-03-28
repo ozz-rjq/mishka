@@ -2277,7 +2277,16 @@ body {
     border-bottom-color: #62d1ba; }
 
 .form__input--phone {
-  padding-right: 35px; }
+  position: relative;
+  padding-right: 35px;
+  background-image: url("../img/icon-phone.svg");
+  -webkit-background-size: 24px 25px;
+          background-size: 24px 25px;
+  background-position: 230px 12px;
+  background-repeat: no-repeat; }
+
+.form__input--email {
+  padding-right: 40px; }
 
 .form__textarea {
   -webkit-box-sizing: border-box;
