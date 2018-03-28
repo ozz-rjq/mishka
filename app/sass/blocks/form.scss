@@ -208,6 +208,17 @@
 }
 
 .form__input--email{
+	position: relative;
+
+	padding-right: 35px;
+
+	background-image: url("../img/icon-mail.svg");
+	background-size: 32px 21px;
+	background-position: 225px 12px;
+	background-repeat: no-repeat;
+}
+
+.form__input--email{
 	padding-right: 40px;
 }
 
