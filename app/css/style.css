@@ -2334,16 +2334,11 @@ body {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-flex-wrap: no-wrap;
-        -ms-flex-wrap: no-wrap;
-            flex-wrap: no-wrap; }
+    display: flex; }
   .form__legend {
-    width: 167px; } }
+    width: 167px; }
+  .form__label--radio {
+    margin-bottom: 24px; } }
 
 @media (min-width: 1150px) {
   .form__desc {

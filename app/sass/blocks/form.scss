@@ -272,12 +272,15 @@
 		border: none;
 
 		display: flex;
-		justify-content: space-between;
-		flex-wrap: no-wrap;
+		
 	}
 
 	.form__legend{
 		width: 167px;
+	}
+
+	.form__label--radio{
+		margin-bottom: 24px;
 	}
 }
 
