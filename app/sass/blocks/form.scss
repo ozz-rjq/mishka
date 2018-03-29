@@ -255,7 +255,8 @@
 
 @media (min-width: $tablet-width){
 	.form{
-		width: 100%;
+		width: 668px;
+		margin: 0 auto;
 	}
 
 	.form__desc{
@@ -265,6 +266,18 @@
 
 		font-size: 17px;
 		line-height: 30px;
+	}
+
+	.form__fieldset{
+		border: none;
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: no-wrap;
+	}
+
+	.form__legend{
+		width: 167px;
 	}
 }
 

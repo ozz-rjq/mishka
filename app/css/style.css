@@ -2321,13 +2321,29 @@ body {
 
 @media (min-width: 768px) {
   .form {
-    width: 100%; }
+    width: 668px;
+    margin: 0 auto; }
   .form__desc {
     width: 668px;
     margin: 0 auto;
     margin-bottom: 55px;
     font-size: 17px;
-    line-height: 30px; } }
+    line-height: 30px; }
+  .form__fieldset {
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: no-wrap;
+        -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap; }
+  .form__legend {
+    width: 167px; } }
 
 @media (min-width: 1150px) {
   .form__desc {
