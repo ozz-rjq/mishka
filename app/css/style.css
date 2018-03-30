@@ -2338,7 +2338,22 @@ body {
   .form__legend {
     width: 167px; }
   .form__label--radio {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+  .form__color {
+    background-color: #f1f1f1; }
+  .form__color .form__content {
+    width: 500px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .form__label--checkbox {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 250px; } }
 
 @media (min-width: 1150px) {
   .form__desc {
