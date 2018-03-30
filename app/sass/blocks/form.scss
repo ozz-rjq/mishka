@@ -281,6 +281,19 @@
 
 	.form__label--radio{
 		margin-bottom: 24px;
+
+		&::after{
+			width: 52px;
+			height: 52px;
+		}
+
+		span{
+			top: 15px;
+			left: 15px;
+
+			width: 21px;
+			height: 21px;
+		}
 	}
 
 	.form__color{
@@ -297,6 +310,18 @@
 	.form__label--checkbox{
 		box-sizing: border-box;
 		width: 250px;
+
+		&::after{
+			width: 52px;
+			height: 52px;
+		}
+
+		span{
+			width: 33px;
+			height: 22px;
+
+			background-size: 33px 22px;
+		}
 	}
 }
 
