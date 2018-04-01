@@ -2351,8 +2351,29 @@ body {
       left: 15px;
       width: 21px;
       height: 21px; }
+    .form__label--radio:hover {
+      cursor: pointer; }
   .form__color {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #f1f1f1; }
+    .form__color::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -50%;
+      height: 100%;
+      width: 50%;
+      background-color: #f1f1f1; }
+    .form__color::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -50%;
+      height: 100%;
+      width: 50%;
+      background-color: #f1f1f1; }
   .form__color .form__content {
     width: 500px;
     display: -webkit-box;
@@ -2377,7 +2398,22 @@ body {
       width: 33px;
       height: 22px;
       -webkit-background-size: 33px 22px;
-              background-size: 33px 22px; } }
+              background-size: 33px 22px; }
+    .form__label--checkbox:hover {
+      cursor: pointer; }
+  .form__contacts .form__content {
+    width: 500px; }
+  .form__group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .form__info-label {
+    margin-right: 28px; } }
 
 @media (min-width: 1150px) {
   .form__desc {
