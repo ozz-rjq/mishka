@@ -330,16 +330,16 @@
 			background-color: #f1f1f1;
 		}
 
-		&::before{
-			content: "";
-			position: absolute;
-			top: 0;
-			right: -50%;
+		// &::before{
+		// 	content: "";
+		// 	position: absolute;
+		// 	top: 0;
+		// 	right: -14%;
 
-			height: 100%;
-			width: 50%;
-			background-color: #f1f1f1;
-		}
+		// 	height: 100%;
+		// 	width: 50%;
+		// 	background-color: #f1f1f1;
+		// }
 	}
 
 	.form__color .form__content{
@@ -360,7 +360,7 @@
 		line-height: 18px;
 
 		&::after{
-			width: 52px;
+			width: 54px;
 			height: 52px;
 		}
 
@@ -416,16 +416,16 @@
 			background-color: #f1f1f1;
 		}
 
-		&::before{
-			content: "";
-			position: absolute;
-			top: 0;
-			right: -50%;
+		// &::before{
+		// 	content: "";
+		// 	position: absolute;
+		// 	top: 0;
+		// 	right: -14%;
 
-			height: 100%;
-			width: 50%;
-			background-color: #f1f1f1;
-		}
+		// 	height: 100%;
+		// 	width: 50%;
+		// 	background-color: #f1f1f1;
+		// }
 	}
 
 	.form__phone .form__group,
@@ -466,10 +466,42 @@
 
 @media (min-width: $desktop-width){
 	.form{
-
+		width: 1050px;
 	}
 
 	.form__desc{
 		width: 700px;
+	}
+
+	.form__legend{
+		width: 175px;
+
+		text-align: center;
+	}
+
+	.form__color .form__content{
+		width: 875px;
+	}
+
+	.form__input--phone,
+	.form__input--email{
+		background-position: 670px 12px;
+	}
+
+	.form__contacts .form__content,
+	.form__extragroup .form__group{
+		width: 700px;
+	}
+
+	.form__textarea{
+		width: 700px;
+	}
+
+	.form__necessarily{
+		right: 175px;
+	}
+
+	.form .button{
+		margin-left: 175px;
 	}
 }

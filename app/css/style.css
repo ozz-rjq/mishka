@@ -2368,14 +2368,6 @@ body {
       height: 100%;
       width: 50%;
       background-color: #f1f1f1; }
-    .form__color::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -50%;
-      height: 100%;
-      width: 50%;
-      background-color: #f1f1f1; }
   .form__color .form__content {
     width: 500px;
     display: -webkit-box;
@@ -2394,7 +2386,7 @@ body {
     font-size: 19px;
     line-height: 18px; }
     .form__label--checkbox::after {
-      width: 52px;
+      width: 54px;
       height: 52px; }
     .form__label--checkbox span {
       width: 33px;
@@ -2431,14 +2423,6 @@ body {
       height: 100%;
       width: 50%;
       background-color: #f1f1f1; }
-    .form__extragroup::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -50%;
-      height: 100%;
-      width: 50%;
-      background-color: #f1f1f1; }
   .form__phone .form__group,
   .form__email .form__group {
     width: 500px; }
@@ -2464,5 +2448,24 @@ body {
     color: #444; } }
 
 @media (min-width: 1150px) {
+  .form {
+    width: 1050px; }
   .form__desc {
-    width: 700px; } }
+    width: 700px; }
+  .form__legend {
+    width: 175px;
+    text-align: center; }
+  .form__color .form__content {
+    width: 875px; }
+  .form__input--phone,
+  .form__input--email {
+    background-position: 670px 12px; }
+  .form__contacts .form__content,
+  .form__extragroup .form__group {
+    width: 700px; }
+  .form__textarea {
+    width: 700px; }
+  .form__necessarily {
+    right: 175px; }
+  .form .button {
+    margin-left: 175px; } }
