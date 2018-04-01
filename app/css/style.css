@@ -2411,9 +2411,39 @@ body {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    margin-bottom: 20px; }
   .form__info-label {
-    margin-right: 28px; } }
+    margin-right: 28px; }
+  .form__extragroup {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: #f1f1f1; }
+    .form__extragroup::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -50%;
+      height: 100%;
+      width: 50%;
+      background-color: #f1f1f1; }
+    .form__extragroup::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -50%;
+      height: 100%;
+      width: 50%;
+      background-color: #f1f1f1; }
+  .form__phone .form__group,
+  .form__email .form__group {
+    width: 500px; }
+  .form__input--phone,
+  .form__input--email {
+    background-color: #f1f1f1;
+    background-position: 450px 12px; } }
 
 @media (min-width: 1150px) {
   .form__desc {

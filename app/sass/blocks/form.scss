@@ -279,6 +279,7 @@
 		width: 167px;
 	}
 
+	// RULES FOR CUSTOM RADIO BUTTONS
 	.form__label--radio{
 		margin-bottom: 24px;
 		padding-top: 16px;
@@ -305,6 +306,7 @@
 		}
 	}
 
+	// RULES FOR COLOR BLOCK
 	.form__color{
 		position: relative;
 
@@ -343,6 +345,7 @@
 		flex-wrap: wrap;
 	}
 
+	//RULES FOR CHECKBOXES
 	.form__label--checkbox{
 		box-sizing: border-box;
 		width: 250px;
@@ -369,6 +372,7 @@
 		}
 	}
 
+	// CONTACTS GROUP
 	.form__contacts{
 
 	}
@@ -380,10 +384,55 @@
 	.form__group{
 		display: flex;
 		align-items: center;
+
+		margin-bottom: 20px;
 	}
 
 	.form__info-label{
 		margin-right: 28px;
+	}
+
+	// GROUP THAT UNITES phone and email FIELDS
+	.form__extragroup{
+		position: relative;
+		padding-top: 50px;
+		padding-bottom: 30px;
+		margin-bottom: 50px;
+
+		background-color: #f1f1f1;
+
+		&::after{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: -50%;
+
+			height: 100%;
+			width: 50%;
+			background-color: #f1f1f1;
+		}
+
+		&::before{
+			content: "";
+			position: absolute;
+			top: 0;
+			right: -50%;
+
+			height: 100%;
+			width: 50%;
+			background-color: #f1f1f1;
+		}
+	}
+
+	.form__phone .form__group,
+	.form__email .form__group{
+		width: 500px;
+	}
+
+	.form__input--phone,
+	.form__input--email{
+		background-color: #f1f1f1;
+		background-position: 450px 12px;
 	}
 }
 
