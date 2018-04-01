@@ -2320,6 +2320,8 @@ body {
   color: #444; }
 
 @media (min-width: 768px) {
+  .main-header + .form {
+    margin-bottom: 50px; }
   .form {
     width: 668px;
     margin: 0 auto; }
@@ -2443,7 +2445,23 @@ body {
   .form__input--phone,
   .form__input--email {
     background-color: #f1f1f1;
-    background-position: 450px 12px; } }
+    background-position: 450px 12px; }
+  .form__additional {
+    position: relative;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 53px; }
+  .form__textarea {
+    width: 500px;
+    height: 142px; }
+  .form__necessarily {
+    position: absolute;
+    top: 204px;
+    right: 0;
+    font-size: 17px;
+    line-height: 30px;
+    color: #444; } }
 
 @media (min-width: 1150px) {
   .form__desc {

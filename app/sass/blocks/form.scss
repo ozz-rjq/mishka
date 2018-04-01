@@ -254,6 +254,10 @@
 }
 
 @media (min-width: $tablet-width){
+	.main-header + .form{
+		margin-bottom: 50px;
+	}
+
 	.form{
 		width: 668px;
 		margin: 0 auto;
@@ -433,6 +437,30 @@
 	.form__input--email{
 		background-color: #f1f1f1;
 		background-position: 450px 12px;
+	}
+
+	//TEXTAREA BLOCK
+	.form__additional{
+		position: relative;
+
+		flex-wrap: wrap;
+
+		margin-bottom: 53px;
+	}
+
+	.form__textarea{
+		width: 500px;
+		height: 142px;
+	}
+
+	.form__necessarily{
+		position: absolute;
+		top: 204px;
+		right: 0;
+
+		font-size: 17px;
+		line-height: 30px;
+		color: #444;
 	}
 }
 
