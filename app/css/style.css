@@ -687,9 +687,11 @@ body {
     color: rgba(0, 0, 0, 0.6); }
   .main-nav__link:active {
     color: rgba(0, 0, 0, 0.3); }
-  .main-nav__link:not([href]):hover {
-    cursor: default;
-    color: #000; }
+  .main-nav__link:not([href]) {
+    color: #50a594; }
+    .main-nav__link:not([href]):hover {
+      cursor: default;
+      color: #50a594; }
 
 .main-nav__link--header {
   display: inline-block;
@@ -2305,7 +2307,10 @@ body {
   font-size: 17px;
   line-height: 18px;
   color: #444444;
-  border: 2px solid #000; }
+  border: 2px solid #000;
+  -webkit-transition: border-color 0.15s;
+  -o-transition: border-color 0.15s;
+  transition: border-color 0.15s; }
   .form__textarea:hover {
     border-color: #62d1ba; }
   .form__textarea:active {
@@ -2338,6 +2343,8 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .form__legend {
+    position: relative;
+    z-index: 5;
     width: 167px; }
   .form__label--radio {
     margin-bottom: 24px;
@@ -2364,9 +2371,11 @@ body {
       content: "";
       position: absolute;
       top: 0;
-      left: -50%;
+      left: 50%;
+      z-index: 2;
+      width: 99vw;
       height: 100%;
-      width: 50%;
+      margin-left: -50vw;
       background-color: #f1f1f1; }
   .form__color .form__content {
     width: 500px;
@@ -2419,12 +2428,16 @@ body {
       content: "";
       position: absolute;
       top: 0;
-      left: -50%;
+      left: 50%;
+      z-index: 2;
+      width: 99vw;
       height: 100%;
-      width: 50%;
+      margin-left: -50vw;
       background-color: #f1f1f1; }
   .form__phone .form__group,
   .form__email .form__group {
+    position: relative;
+    z-index: 5;
     width: 500px; }
   .form__input--phone,
   .form__input--email {
