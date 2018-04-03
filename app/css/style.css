@@ -2299,8 +2299,8 @@ body {
   position: relative;
   padding-right: 35px;
   background-image: url("../img/icon-mail.svg");
-  -webkit-background-size: 32px 21px;
-          background-size: 32px 21px;
+  -webkit-background-size: 32px 27px;
+          background-size: 32px 27px;
   background-position: 225px 12px;
   background-repeat: no-repeat; }
 
@@ -2358,6 +2358,8 @@ body {
     position: relative;
     z-index: 5;
     width: 167px; }
+    .form__legend::after {
+      display: none; }
   .form__label--radio {
     margin-bottom: 24px;
     padding-top: 16px;
@@ -2385,7 +2387,7 @@ body {
       top: 0;
       left: 50%;
       z-index: 2;
-      width: 99vw;
+      width: 99.4vw;
       height: 100%;
       margin-left: -50vw;
       background-color: #f1f1f1; }
@@ -2442,7 +2444,7 @@ body {
       top: 0;
       left: 50%;
       z-index: 2;
-      width: 99vw;
+      width: 99.4vw;
       height: 100%;
       margin-left: -50vw;
       background-color: #f1f1f1; }
@@ -2454,7 +2456,7 @@ body {
   .form__input--phone,
   .form__input--email {
     background-color: #f1f1f1;
-    background-position: 450px 12px; }
+    background-position: 460px 12px; }
   .form__additional {
     position: relative;
     -webkit-flex-wrap: wrap;
@@ -2484,7 +2486,7 @@ body {
     width: 875px; }
   .form__input--phone,
   .form__input--email {
-    background-position: 670px 12px; }
+    background-position: 665px 12px; }
   .form__contacts .form__content,
   .form__extragroup .form__group {
     width: 700px; }
