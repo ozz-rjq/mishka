@@ -2270,6 +2270,7 @@ body {
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 3px;
   font-size: 17px;
   line-height: 18px;
   border-top: 0;
@@ -2306,6 +2307,9 @@ body {
 
 .form__input--email {
   padding-right: 40px; }
+
+.form__extragroup .form__legend {
+  margin-bottom: 5px; }
 
 .form__textarea {
   -webkit-box-sizing: border-box;
