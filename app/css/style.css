@@ -582,6 +582,9 @@ body {
   .search__link:active {
     background-image: url("../img/icon-search-active.svg"); }
 
+.search__form {
+  display: none; }
+
 @media (min-width: 768px) {
   .tablet-hidden {
     position: absolute !important;
@@ -592,6 +595,7 @@ body {
     /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px); }
   .search {
+    position: relative;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 84px;
@@ -600,7 +604,50 @@ body {
     border-right: 1px solid #ececec; }
   .search__link {
     height: 100%;
-    background-position: 47% 34px; } }
+    background-position: 47% 34px; }
+  .search__form {
+    display: block;
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 600px;
+    background-color: #ffe;
+    -webkit-border-radius: 4px;
+            border-radius: 4px; }
+  .search__input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 500px;
+    height: 60px;
+    padding-left: 15px;
+    margin-right: 25px;
+    font-size: 42px;
+    font-style: italic;
+    border: 2px solid #62d1ba; }
+  .search__btn {
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 60px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #62d1ba;
+    background-color: #ffe;
+    border: 1px solid #efe;
+    -webkit-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
+    .search__btn:hover {
+      cursor: pointer;
+      background-color: #62d1ba;
+      color: #ffe; } }
 
 .cart__link {
   background-image: url("../img/icon-cart.svg");
@@ -2419,6 +2466,8 @@ body {
       width: 54px;
       height: 52px; }
     .form__label--checkbox span {
+      top: 13px;
+      left: 11px;
       width: 33px;
       height: 22px;
       -webkit-background-size: 33px 22px;
@@ -2507,6 +2556,8 @@ body {
     text-align: center; }
   .form__color .form__content {
     width: 875px; }
+  .form__label--checkbox:nth-child(4) {
+    margin-bottom: 0; }
   .form__input--phone,
   .form__input--email {
     background-position: 665px 12px; }

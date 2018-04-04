@@ -394,6 +394,9 @@
 		}
 
 		span{
+			top: 13px;
+			left: 11px;
+
 			width: 33px;
 			height: 22px;
 
@@ -403,7 +406,6 @@
 		&:hover{
 			cursor: pointer;
 		}
-
 
 		&:nth-child(5){
 			margin-bottom: 0;
@@ -418,7 +420,7 @@
 	.form__input{
 		box-sizing: border-box;
 		padding-left: 18px;
-		
+
 		font-size: 19px;
 		line-height: 18px;
 	}
@@ -531,6 +533,10 @@
 
 	.form__color .form__content{
 		width: 875px;
+	}
+
+	.form__label--checkbox:nth-child(4){
+		margin-bottom: 0;
 	}
 
 	.form__input--phone,
