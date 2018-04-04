@@ -342,6 +342,10 @@
 		}
 	}
 
+	.form__type{
+		margin-bottom: 50px;
+	}
+
 	// RULES FOR COLOR BLOCK
 	.form__color{
 		position: relative;
@@ -379,6 +383,7 @@
 		width: 250px;
 		padding-top: 16px;
 		padding-bottom: 18px;
+		margin-bottom: 24px;
 
 		font-size: 19px;
 		line-height: 18px;
@@ -398,11 +403,24 @@
 		&:hover{
 			cursor: pointer;
 		}
+
+
+		&:nth-child(5){
+			margin-bottom: 0;
+		}
 	}
 
 	// CONTACTS GROUP
 	.form__contacts{
 
+	}
+
+	.form__input{
+		box-sizing: border-box;
+		padding-left: 18px;
+		
+		font-size: 19px;
+		line-height: 18px;
 	}
 
 	.form__contacts .form__content{
@@ -444,6 +462,11 @@
 		}
 	}
 
+	.form__phone,
+	.form__email{
+		margin-bottom: 0;
+	}
+
 	.form__phone .form__group,
 	.form__email .form__group{
 		position: relative;
@@ -454,6 +477,11 @@
 
 	.form__input--phone,
 	.form__input--email{
+		padding-left: 18px;
+
+		font-size: 19px;
+		line-height: 18px;
+
 		background-color: #f1f1f1;
 		background-position: 460px 12px;
 	}
@@ -470,6 +498,9 @@
 	.form__textarea{
 		width: 500px;
 		height: 142px;
+
+		font-size: 19px;
+		line-height: 18px;
 	}
 
 	.form__necessarily{

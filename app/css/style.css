@@ -2380,6 +2380,8 @@ body {
       height: 21px; }
     .form__label--radio:hover {
       cursor: pointer; }
+  .form__type {
+    margin-bottom: 50px; }
   .form__color {
     position: relative;
     padding-top: 50px;
@@ -2410,6 +2412,7 @@ body {
     width: 250px;
     padding-top: 16px;
     padding-bottom: 18px;
+    margin-bottom: 24px;
     font-size: 19px;
     line-height: 18px; }
     .form__label--checkbox::after {
@@ -2422,6 +2425,14 @@ body {
               background-size: 33px 22px; }
     .form__label--checkbox:hover {
       cursor: pointer; }
+    .form__label--checkbox:nth-child(5) {
+      margin-bottom: 0; }
+  .form__input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 18px;
+    font-size: 19px;
+    line-height: 18px; }
   .form__contacts .form__content {
     width: 500px; }
   .form__group {
@@ -2452,6 +2463,9 @@ body {
       height: 100%;
       margin-left: -50vw;
       background-color: #f1f1f1; }
+  .form__phone,
+  .form__email {
+    margin-bottom: 0; }
   .form__phone .form__group,
   .form__email .form__group {
     position: relative;
@@ -2459,6 +2473,9 @@ body {
     width: 500px; }
   .form__input--phone,
   .form__input--email {
+    padding-left: 18px;
+    font-size: 19px;
+    line-height: 18px;
     background-color: #f1f1f1;
     background-position: 460px 12px; }
   .form__additional {
@@ -2469,7 +2486,9 @@ body {
     margin-bottom: 53px; }
   .form__textarea {
     width: 500px;
-    height: 142px; }
+    height: 142px;
+    font-size: 19px;
+    line-height: 18px; }
   .form__necessarily {
     position: absolute;
     top: 204px;
