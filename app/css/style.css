@@ -502,7 +502,7 @@ body {
   vertical-align: baseline;
   background-repeat: no-repeat; }
   .social__link--instagram {
-    width: 22px;
+    width: 23px;
     height: 21px;
     background-image: url("../img/icon-insta.svg"); }
     .social__link--instagram:hover {
@@ -2131,6 +2131,7 @@ body {
     width: 260px;
     height: 148px; }
   .production__video::after {
+    display: none;
     content: "";
     position: absolute;
     top: 36px;
@@ -2139,6 +2140,10 @@ body {
     height: 78px;
     background-image: url("../img/icon-play.svg");
     background-repeat: no-repeat; }
+  .production__video:hover {
+    cursor: pointer; }
+  .production__video:hover::after {
+    display: block; }
 
 .production__desc {
   width: 190px;
