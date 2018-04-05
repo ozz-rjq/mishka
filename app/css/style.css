@@ -582,41 +582,6 @@ body {
     background-image: url("../img/icon-search-hover.svg"); }
   .search__link:active {
     background-image: url("../img/icon-search-active.svg"); }
-  .search__link::after {
-    content: "";
-    position: absolute;
-    top: 45px;
-    left: 35px;
-    width: 25px;
-    height: 2px;
-    background-color: red;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-animation: linkOpac 0.5s;
-            animation: linkOpac 0.5s;
-    display: none; }
-  .search__link::before {
-    content: "";
-    position: absolute;
-    top: 45px;
-    left: 35px;
-    width: 25px;
-    height: 2px;
-    background-color: red;
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-animation: linkOpac 0.5s;
-            animation: linkOpac 0.5s;
-    display: none; }
-  .search__link:hover::after, .search__link:hover::before {
-    background-color: rgba(255, 0, 0, 0.4); }
-
-.search__link.search__form--opened {
-  background-image: none; }
-  .search__link.search__form--opened::after, .search__link.search__form--opened::before {
-    display: block; }
 
 @-webkit-keyframes linkOpac {
   0% {
@@ -657,11 +622,46 @@ body {
   .search__link {
     height: 100%;
     background-position: 47% 34px; }
+    .search__link::after {
+      content: "";
+      position: absolute;
+      top: 45px;
+      left: 35px;
+      width: 25px;
+      height: 2px;
+      background-color: red;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      -webkit-animation: linkOpac 0.5s;
+              animation: linkOpac 0.5s;
+      display: none; }
+    .search__link::before {
+      content: "";
+      position: absolute;
+      top: 45px;
+      left: 35px;
+      width: 25px;
+      height: 2px;
+      background-color: red;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      -webkit-animation: linkOpac 0.5s;
+              animation: linkOpac 0.5s;
+      display: none; }
+    .search__link:hover::after, .search__link:hover::before {
+      background-color: rgba(255, 0, 0, 0.4); }
+  .search__link.search__form--opened {
+    background-image: none; }
+    .search__link.search__form--opened::after, .search__link.search__form--opened::before {
+      display: block; }
   .search__form {
     display: none;
     position: absolute;
     top: 95px;
     left: 50%;
+    z-index: 10;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
