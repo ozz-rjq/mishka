@@ -45,6 +45,11 @@
 	margin-bottom: 28px;
 }
 
+.product-teaser__img{
+	display: block;
+	margin-bottom: 26px;
+}
+
 .product-teaser__price{
 	display: block;
 	margin-bottom: 25px;
@@ -117,7 +122,7 @@
 
 @media (min-width: $desktop-width){
 	.product-teaser{
-
+		margin-bottom: 72px;
 	}
 
 	.product-teaser__container{
