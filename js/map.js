@@ -1,0 +1,1 @@
+window.onload=function(){var n=document.querySelector("#map"),o=new google.maps.Map(n,{zoom:15,center:{lat:59.720504,lng:30.418335}}),e=new google.maps.Marker({position:{lat:59.719504,lng:30.417335},map:o,icon:"img/map-pin.png"}),a=new google.maps.InfoWindow({content:"<p>ул. Конюшенная 19/8</p>"});e.addListener("click",function(){a.open(o,e)})};

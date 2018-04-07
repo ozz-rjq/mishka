@@ -1,0 +1,1 @@
+var imagemin=require("imagemin"),webp=require("imagemin-webp"),outputFolder="./app/img",PNGImages="./app/img/*.png",JPEGImages="./app/img/*.jpg";imagemin([PNGImages],outputFolder,{plugins:[webp({lossless:50})]}),imagemin([JPEGImages],outputFolder,{plugins:[webp({quality:65})]});
