@@ -148,7 +148,7 @@
           </li>
         </ul>
 
-        <button class="main-nav__toggle  main-nav__toggle--open"></button>
+        <button class="main-nav__toggle  main-nav__toggle--open"><span class="visually-hidden">Меню</span></button>
       </nav>
 
       <b class="page-header__info">Бесплатная доставка по России</b>
@@ -237,7 +237,7 @@
 	        <h3 class="form__legend">Тел</h3>
 
 	        <div class="form__group">
-	          <label for="phone"></label>
+	          <label for="phone"><span class="visually-hidden">Телефон</span></label>
 	          <input class="form__input  form__input--phone" type="tel" name="phone" id="phone" placeholder="+7 ХХХ ХХ ХХ*">
 	        </div>
 	      </div>
@@ -246,7 +246,7 @@
 	        <h3 class="form__legend">E-mail</h3>
 
 	        <div class="form__group">
-	          <label for="email"></label>
+	          <label for="email"><span class="visually-hidden">Email</span></label>
 	          <input class="form__input  form__input--email" type="email" name="email" id="email" placeholder="Ваш Email*">
 	        </div>
 	      </div>
@@ -254,6 +254,8 @@
 
       <div role="group" class="form__fieldset  form__additional">
         <h3 class="form__legend">Доп</h3>
+
+        <label for="textarea"><span class="visually-hidden">Дополнительно</span></label>
 
         <textarea class="form__textarea" name="textarea" id="textarea" cols="30" rows="10" placeholder="Опишите все ваши пожелания к заказу"></textarea>
 
@@ -293,6 +295,9 @@
       <div class="page-footer__col  page-footer__col--3">
         <b class="page-footer__created">Разработано</b>
         <a class="page-footer__link" href="#">
+        	<span class="visually-hidden">
+        		HTML Academy
+        	</span>
           <svg class="page-footer__htmlacademy" width="27" height="34">
             <use xlink:href="#logo-htmlacademy"></use>
           </svg>
