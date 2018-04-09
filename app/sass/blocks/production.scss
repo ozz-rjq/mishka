@@ -55,6 +55,14 @@
 	&:hover::after{
 		display: block;
 	}
+
+	&:active::after{
+		top: 42px;
+		left: 88px;
+
+		background-size: 80% 80%;
+		opacity: 0.9;
+	}
 }
 
 .production__desc{
@@ -113,6 +121,11 @@
 		&::after{
 			top: 189px;
 			left: 283px;
+		}
+
+		&:active::after{
+			top: 197px;
+			left: 290px;
 		}
 	}
 

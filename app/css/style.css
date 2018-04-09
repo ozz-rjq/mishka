@@ -2151,6 +2151,12 @@ body {
     cursor: pointer; }
   .production__video:hover::after {
     display: block; }
+  .production__video:active::after {
+    top: 42px;
+    left: 88px;
+    -webkit-background-size: 80% 80%;
+            background-size: 80% 80%;
+    opacity: 0.9; }
 
 .production__desc {
   width: 190px;
@@ -2202,6 +2208,9 @@ body {
     .production__video::after {
       top: 189px;
       left: 283px; }
+    .production__video:active::after {
+      top: 197px;
+      left: 290px; }
   .production__desc {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
@@ -2459,7 +2468,8 @@ body {
   border: 2px solid #000;
   -webkit-transition: border-color 0.15s;
   -o-transition: border-color 0.15s;
-  transition: border-color 0.15s; }
+  transition: border-color 0.15s;
+  resize: none; }
   .form__textarea:hover {
     border-color: #62d1ba; }
   .form__textarea:active {
