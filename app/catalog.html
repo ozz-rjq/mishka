@@ -188,7 +188,7 @@
               <hr class="product__hr">
               <div class="product__price">
                 <b class="product__price-value">1 200 руб.</b>
-                <button class="product__to-cart"><span class="visually-hidden">В корзину!</span></button>
+                <button class="product__to-cart  order-js"><span class="visually-hidden">В корзину!</span></button>
               </div>
             </div>
           </div>
@@ -215,7 +215,7 @@
               <hr class="product__hr">
               <div class="product__price">
                 <b class="product__price-value">690 руб.</b>
-                <button class="product__to-cart"><span class="visually-hidden">В корзину!</span></button>
+                <button class="product__to-cart  order-js"><span class="visually-hidden">В корзину!</span></button>
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@
               <hr class="product__hr">
               <div class="product__price">
                 <b class="product__price-value">1 500 руб.</b>
-                <button class="product__to-cart"><span class="visually-hidden">В корзину!</span></button>
+                <button class="product__to-cart  order-js"><span class="visually-hidden">В корзину!</span></button>
               </div>
             </div>
           </div>
@@ -313,9 +313,31 @@
     </div>
   </footer>
 
+  <section class="modal">
+  	<h2 class="modal__title">Добавить в корзину</h2>
+  	<p class="modal__desc">Выберите размер:</p>
+
+  	<form class="modal__form" action="#">
+  		
+  		<div class="modal__group">
+  			<input class="modal__radio modal__radio--s" type="radio" name="modal__radio" value="s" id="modal__s" checked>
+	  		<label class="modal__label" for="modal__s">S</label>
+	  		
+	  		<input class="modal__radio modal__radio--m" type="radio" name="modal__radio" value="m" id="modal__m">
+	  		<label class="modal__label" for="modal__m">M</label>
+	  		
+	  		<input class="modal__radio modal__radio--l" type="radio" name="modal__radio" value="l" id="modal__l">
+	  		<label class="modal__label" for="modal__l">L</label>
+  		</div>
+
+  		<button class="modal__btn  add-js">Добавить</button>
+  	</form>
+  </section>
+
   <script src="js/picturefill.min.js"></script>
   <script src="js/no-js.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/modal.js"></script>
 
 </body>
 

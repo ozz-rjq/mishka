@@ -1,10 +1,23 @@
 .modal{
+	display: none;
+
+	position: fixed;
+	top: 20%;
+	left: 0;
+	z-index: 25;
+
 	box-sizing: border-box;
+	width: 100%;
 	padding-top: 32px;
 	padding-bottom: 46px;
 
+	background-color: #fff;
 	border-top: 1px solid #c7c7c7;
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.modal--show{
+	display: block;
 }
 
 .modal__title{
@@ -98,8 +111,13 @@
 
 @media (min-width: $tablet-width){
 	.modal{
+		left: 50%;
+		transform: translateX(-50%);
+
 		width: 568px;
 		border: 1px solid #c6c6c6;
+
+		animation: modalAppear 0.5s;
 	}
 
 	.modal__title{
@@ -124,5 +142,12 @@
 
 	.modal__btn{
 		width: 350px;
+	}
+
+	@keyframes modalAppear{
+		0%{
+			transform: rotateX(-90deg) translateX(-50%);
+		}
+		
 	}
 }
