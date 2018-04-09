@@ -26,4 +26,11 @@
 			modalOverlay.classList.remove("modal__overlay--show");
 		}
 	});
+
+	modalOverlay.addEventListener("click", function(event){
+		if (modalOverlay.classList.contains("modal__overlay--show")){
+			modalOverlay.classList.remove("modal__overlay--show");
+			modalWindow.classList.remove("modal--show");
+		}
+	});
 })();
