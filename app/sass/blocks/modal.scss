@@ -108,6 +108,22 @@
 	}
 }
 
+.modal__overlay{
+	display: none;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(#fff, 0.9);
+}
+
+.modal__overlay--show{
+	display: block;
+}
 
 @media (min-width: $tablet-width){
 	.modal{

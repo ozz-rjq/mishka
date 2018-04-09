@@ -5,7 +5,6 @@
 	var searchLink = document.querySelector(".search__link");
 	var searchBlock = document.querySelector(".search__form");
 
-
 	navToggle.addEventListener("click", function(){
 		if (navToggle.classList.contains("main-nav__toggle--open")){
 			navToggle.classList.remove("main-nav__toggle--open");
