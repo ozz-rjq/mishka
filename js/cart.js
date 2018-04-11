@@ -1,0 +1,1 @@
+!function(){for(var e,n=document.querySelector(".cart__status"),t=document.querySelectorAll(".order-js"),r=0;r<t.length;r++)t[r].addEventListener("click",function(t){t.preventDefault(),e=parseInt(n.innerHTML,10),isNaN(e)&&(e=0),console.log(e),++e,n.innerHTML=e})}();
