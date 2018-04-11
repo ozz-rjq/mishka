@@ -14,6 +14,7 @@ The project was created using:
 Features:
 * Main functionality works in browsers like IE10+
 * Complicated adaptive main navigation
+* Retina graphics
 * Accessibility
 * Advanced features (like font-swap) for Chromium Based Browsers
 
