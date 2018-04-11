@@ -15,7 +15,6 @@ var emailRequire = document.querySelector("input[name=email]");
 
 submitBtn.addEventListener("click", function(event){
 	event.preventDefault();
-	console.log("azaza");
 
 	if (nameRequire.value && surnameRequire.value 
 			&& emailRequire.value && phoneRequire.value){

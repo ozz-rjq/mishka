@@ -158,180 +158,33 @@
     </div>
   </header>
 
-  <main class="page-main">
-    <div class="promo">
-      <div class="promo__container">
-        <header class="promo__header">
-          <h1 class="promo__title">Милые штуки ручной<br>работы для дома</h1>
-        </header>
-
-        <div class="promo__options">
-          <div class="option  option--things">
-            <a href="#" class="option__inner">Предметы интерьера</a>
-          </div>
-
-          <div class="option  option--toys">
-            <a href="catalog.html" class="option__inner">Детские игрушки</a>
-          </div>
+  <div class="contact-us contact-us--static">
+    <button class="contact-us__close  contact-us__close--popup"><span class="visually-hidden">Закрыть</span></button>
+    <form  class="contact-us__form feedback" action="#" method="POST">
+      <div class="feedback__row">
+        <div class="feedback__wrap">
+          <label class="feedback__label" for="name">Ваше имя:</label>
+          <input class="feedback__input" type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name" required>
         </div>
-      </div>
-    </div>
 
-    <div class="product-teaser">
-      <div class="product-teaser__container">
-        <header class="product-teaser__header">
-          <h2 class="product-teaser__title">Вязаные корзинки</h2>
-          <b class="product-teaser__info">Товар <br> недели</b>
-        </header>
-
-        <p class="product-teaser__desc">
-          Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
-        </p>
-
-        <table class="product-teaser__table  table">
-          <tr class="table__row">
-            <td class="table__col  table__col--narrow">Цвет:</td>
-            <td class="table__col">«Тиффани»/серый</td>
-          </tr>
-
-          <tr class="table__row">
-            <td class="table__col  table__col--narrow">Диаметр:</td>
-            <td class="table__col">25 см</td>
-          </tr>
-
-          <tr class="table__row">
-            <td class="table__col  table__col--narrow">Высота:</td>
-            <td class="table__col">15 см</td>
-          </tr>
-        </table>
-
-        <picture>
-        	<source media="(min-width: 1150px)" type="image/webp" srcset="img/triple-set-desktop@1x.webp 1x, img/triple-set-desktop@2x.webp 2x">
-          <source media="(min-width: 1150px)" srcset="img/triple-set-desktop@1x.jpg 1x, img/triple-set-desktop@2x.jpg 2x">
-          <source media="(min-width: 768px)" type="image/webp" srcset="img/triple-set-tablet@1x.webp 1x, img/triple-set-tablet@2x.webp 2x">
-          <source media="(min-width: 768px)" srcset="img/triple-set-tablet@1x.jpg 1x, img/triple-set-tablet@2x.jpg 2x">
-          <source type="image/webp" srcset="img/triple-set-mobile@1x.webp 1x, img/triple-set-mobile@2x.webp 2x">
-          <img class="product-teaser__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg 2x" alt="Teaser">
-        </picture>
-
-        <b class="product-teaser__price">Цена: 990 руб.</b>
-
-        <button class="product-teaser__button  button  order-js" type="button">Заказать</button>
-      </div>
-    </div>
-
-    <div class="container">
-      <hr class="zigzag-hr">
-    </div>
-
-    <div class="features">
-      <div class="features__container">
-        <h3 class="features__title">Коротко о нас:</h3>
-        <ul class="features__list">
-          <li class="features__item  features__item--flower">Экологически
-            <br> чистые материалы</li>
-          <li class="features__item  features__item--money">Скандинавский стиль
-            <br> по российской цене</li>
-          <li class="features__item  features__item--heart">Увеличивает лайки
-            <br> на фотографиях</li>
-          <li class="features__item  features__item--ball">Связано вручную с
-            <br> любовью и умилением</li>
-          <li class="features__item  features__item--rocket">Поддержка отечественного производителя</li>
-          <li class="features__item  features__item--gift">Поставляется в
-            <br> подарочной упаковке</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="reviews  reviews--no-js">
-      <div class="reviews__container">
-        <div class="reviews__slider  reviews__slider--no-js">
-          <h3 class="reviews__title">Отзывы</h3>
-
-          <div class="reviews__slides">
-            <div class="reviews__slide  reviews__slide--1  reviews__slide--active">
-              <p class="reviews__desc">
-                Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-              </p>
-
-              <div class="reviews__info">
-                <b class="reviews__author">Анастасия Красильникова</b>
-                <span class="reviews__insta">@misssssiskras</span>
-              </div>
-            </div>
-
-            <div class="reviews__slide  reviews__slide--2">
-              <p class="reviews__desc">
-                Я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-              </p>
-
-              <div class="reviews__info">
-                <b class="reviews__author">Анна Красильникова</b>
-                <span class="reviews__insta">@misssssiskras</span>
-              </div>
-            </div>
-
-            <div class="reviews__slide  reviews__slide--3">
-              <p class="reviews__desc">
-                Я молодая мама!
-              </p>
-
-              <div class="reviews__info">
-                <b class="reviews__author">Настасья Красильникова</b>
-                <span class="reviews__insta">@misssssiskras</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="reviews__controls">
-            <button class="reviews__control reviews__control--prev" type="button"><span class="visually-hidden">Назад</span></button>
-            <button class="reviews__control reviews__control--next" type="button"><span class="visually-hidden">Вперед</span></button>
-          </div>
-
-          <a class="reviews__write  button  button--short" href="#">Написать</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <hr class="zigzag-hr">
-    </div>
-
-    <div class="contacts">
-      <div class="contacts__container  contacts__container--1">
-        <h3 class="contacts__title">Контакты</h3>
-
-        <p class="contacts__fields">
-          <b class="contacts__field">
-						<span class="contacts__key">e-mail:</span>
-						<span class="contacts__value  contacts__value--bordered">info@mimimishkashop.ru</span>
-					</b>
-
-          <b class="contacts__field">
-						<span class="contacts__key">адрес:</span>
-						<span class="contacts__value">г. Санкт-Петербург, <br> ул. Большая Конюшенная, <br> д. 19/8, офис 101</span>
-					</b>
-        </p>
-      </div>
-
-      <div class="contacts__container  contacts__container--2">
-        <div class="contacts__map  map" id="map">
-          <picture>
-          	<source media="(min-width:1150px)" type="image/webp" srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
-            <source media="(min-width:1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
-            <source media="(min-width:768px)" type="image/webp" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
-            <source media="(min-width:768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
-            <source type="image/webp" srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
-            <img src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg 2x" alt="Map">
-          </picture>
+        <div class="feedback__wrap">
+          <label class="feedback__label" for="email">Ваш e-mail:</label>
+          <input class="feedback__input" type="email" name="email" placeholder="Для отправки ответа" id="email" required>
         </div>
       </div>
 
-      <div class="contacts__container  contacts__container--3">
-        <a class="contacts__write-us  button" href="contact-us.html">Напишите нам</a>
+      <div class="feedback__row">
+        <div class="feedback__wrap  feedback__wrap--long">
+          <label class="feedback__label" for="message">Текст письма:</label>
+          <textarea class="feedback__textarea" name="message" id="message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        </div>
       </div>
-    </div>
-  </main>
+
+      <button class="feedback__btn button">
+        Отправить
+      </button>
+    </form>
+  </div>
 
   <footer class="page-footer">
     <div class="page-footer__container">
@@ -372,27 +225,6 @@
       </div>
     </div>
   </footer>
-
-  <section class="modal">
-  	<h2 class="modal__title">Добавить в корзину</h2>
-  	<p class="modal__desc">Выберите размер:</p>
-
-  	<form class="modal__form" action="#">
-  		
-  		<div class="modal__group">
-  			<input class="modal__radio modal__radio--s" type="radio" name="modal__radio" value="s" id="modal__s" checked>
-	  		<label class="modal__label" for="modal__s">S</label>
-	  		
-	  		<input class="modal__radio modal__radio--m" type="radio" name="modal__radio" value="m" id="modal__m">
-	  		<label class="modal__label" for="modal__m">M</label>
-	  		
-	  		<input class="modal__radio modal__radio--l" type="radio" name="modal__radio" value="l" id="modal__l">
-	  		<label class="modal__label" for="modal__l">L</label>
-  		</div>
-
-  		<button class="modal__btn  add-js">Добавить</button>
-  	</form>
-  </section>
 
   <div class="contact-us">
 		<button class="contact-us__close  contact-us__close--popup"><span class="visually-hidden">Закрыть</span></button>

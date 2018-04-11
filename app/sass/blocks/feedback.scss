@@ -12,4 +12,50 @@
 
 .feedback__label{
 	display: block;
+
+	margin-bottom: 8px;
+	margin-top: 6px;
+}
+
+.feedback__input{
+	box-sizing: border-box;
+	width: 240px;
+	min-height: 28px;
+	padding-left: 5px;
+	padding-right: 10px;
+
+	font-family: $opensans;
+	line-height: 28px;
+
+	border: 1px solid #62d1ba;
+	border-radius: 2px;
+}
+
+.feedback__textarea{
+	height: 90px;
+	margin-bottom: 25px;
+	padding-top: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	font-family: $opensans;
+
+	border: 1px solid #62d1ba;
+	border-radius: 2px;
+
+	resize: none;
+}
+
+.feedback__btn{
+
+}
+
+@media (min-width: $tablet-width){
+	.feedback__input{
+		width: 75%;
+	}
+	.feedback__textarea{
+		width:80%;
+		height: 128px;
+	}
 }
